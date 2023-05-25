@@ -13,7 +13,7 @@
         <img src="img/ITVER-1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
             <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
@@ -25,7 +25,7 @@
         <img src="img/IMG_3929.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
             <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
@@ -36,7 +36,7 @@
         <img src="img/IMG_1891.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
             <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Colabora con la comunidad</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
@@ -69,7 +69,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Ingeniería Química?</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Licenciatura en Administración?</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">

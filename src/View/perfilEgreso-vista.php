@@ -5,7 +5,7 @@
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Licenciatura en Administración</h1>
             </div>
         </div>
     </div>
@@ -45,10 +45,8 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionistas líderes con visión
-                            estratégica y amplio sentido ético; capaz de diseñar, desarrollar, implementar y administrar tecnología
-                            computacional para aportar soluciones innovadoras en beneficio de la sociedad; en un contexto global,
-                            multidisciplinario y sostenible.
+                        <p style="text-align: justify;"> Formar profesionales de la administración comprometidos con las demandas y oportunidades del entorno, 
+                         con una visión estratégica, humanista y global, que actúen como agentes de cambio, a través del diseño, innovación y dirección en organizaciones.
                         </p>
                     </div>
                 </div>
@@ -57,67 +55,6 @@
     </div>
 </section>
 <!--Fin Objetivo general -->
-
-<!-- Objetivos Educacionales -->
-<div class="informationContainer">
-        <div class="row g-0 align-items-center">
-            <div class="col-lg-12">
-                <!-- Puntos del perfil de egreso -->
-                <section class="lightSection bg-light p-2">
-                    <h2 class="sectionTitle text-center font-bold m-3">Objetivos educacionales</h2>
-                    <div class="sectionSeparator"></div>
-                    <p class="p-3" style="text-align: justify;">Los siguientes objetivos educacionales del programa educativo en Ingeniería Química 
-                        se refieren a los conocimientos, habilidades, actitudes y valores que los egresados alcanzan 
-                        en un plazo de 5 años después de su egreso del programa.</p>
-
-                    <div class="row g-0">
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que colabora en equipos interdisciplinarios 
-                                    y multidisciplinarios como gerentes, superintendentes, coordinadores, jefes de departamento, 
-                                    operarios y supervisores en el ámbito laboral de la ingeniería química y función pública y privada.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesionista competente con el conocimiento científico 
-                                    y las habilidades técnicas para desempeñarse en los campos de la investigación, diseño, mejora, 
-                                    desarrollo de procesos, formulación y evaluación de proyectos, gestión logística, 
-                                    planteamiento y control de operaciones en empresas de sectores públicos y privados.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que comunica información técnica de modo efectivo, 
-                                    para todo tipo de sectores, interactuando incluso en grupos multidisciplinarios e incorporando nuevas 
-                                    tecnologías que contribuyen al progreso y desarrollo en su actividad profesional, asumiendo así un rol proactivo.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que ejerce su profesión con actitud 
-                                    responsable y un profundo sentido ético,  respeto a la normativa social y 
-                                    a los sistemas de gestión inherente a su práctica profesional.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Fin Puntos del perfil de egreso -->
-
-            </div>
-        </div>
-    </div>
-<!-- Fin Objetivos Educacionales-->
-
 
 <!-- Perfil de egreso -->
 <div class="informationContainer">
@@ -132,26 +69,24 @@
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/ingenieria.PNG" alt="">
-                            <p class="textoArea">Implementa aplicaciones computacionales para solucionar problemas de
-                                diversos contextos,
-                                integrando diferentes tecnologías, plataformas o dispositivos.</p>
+                            <p class="textoArea">Integra los procesos gerenciales, de administración, de innovación y 
+                                las estrategias para alcanzar la productividad y competitividad de las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/ing-software-icono.PNG" alt="">
-                            <p class="textoArea">Diseña, desarrolla y aplica modelos computacionales para solucionar
-                                problemas, mediante
-                                la selección y uso de herramientas matemáticas.</p>
+                            <p class="textoArea">Adapta las etapas de los procesos a las nuevas tendencias y enfoques de la administración, 
+                                para la optimización de los recursos y el manejo de los cambios organizacionales, de acuerdo a las necesidades del entorno.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/redes.PNG" alt="">
-                            <p class="textoArea">Diseña, configura y administra redes de computadoras para crear soluciones de
-                                conectividad en la organización, aplicando las normas y estándares vigentes.
+                            <p class="textoArea">Desarrolla habilidades directivas basadas en la ética y la responsabilidad social, 
+                                que le permitan integrar y coordinar equipos interdisciplinarios y multidisciplinarios para el crecimiento de la organización.
                             </p>
                         </div>
                     </div>
@@ -159,50 +94,73 @@
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
-                            <p class="textoArea">Diseña e implementa interfaces para la implementación y automatización
-                                de sistemas de hardware y
-                                desarrollo del software asociado.</p>
+                            <p class="textoArea">Crea y desarrolla proyectos sustentables aplicando métodos de investigación de vanguardia, con un enfoque estratégico, 
+                                multicultural y humanista.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
-                            <p class="textoArea">Coordina y participa en equipos multidisciplinarios para la aplicación
-                                de soluciones
-                                innovadoras en diferentes contextos del mundo laboral.</p>
+                            <p class="textoArea">Dirige la organización hacia la consecución de sus objetivos, a través de la coordinación de esfuerzos y el desarrollo creativo.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/distribuidas.PNG" alt="">
-                            <p class="textoArea">Diseña, implementa y administra bases de datos optimizando los recursos
-                                disponibles,
-                                bajo las normas de manejo y seguridad de la información.</p>
+                            <p class="textoArea">Diseña organizaciones que contribuyan a la transformación económica y social identificando las oportunidades de negocios.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/administracion.PNG" alt="">
-                            <p class="textoArea">Desarrolla y administra software para apoyar la productividad y competitividad de
-                                las organizaciones cumpliendo con estándares de calidad.</p>
+                            <p class="textoArea">Interpreta y aplica el marco legal vigente nacional e internacional, para dar certeza jurídica a las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
-                            <p class="textoArea">Evalúa tecnologías de hardware para soportar aplicaciones de manera efectiva.</p>
+                            <p class="textoArea">Interpreta información financiera y económica para la toma de decisiones en las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/programacion.PNG" alt="">
-                            <p class="textoArea">Detecta áreas de oportunidad empleando una visión empresarial para crear proyectos
-                                aplicando las Tecnologías de la Información y Comunicación.</p>
+                            <p class="textoArea">Desarrolla el capital humano a través de la utilización de técnicas y herramientas gerenciales para la toma de decisiones.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <p class="textoArea">Implementa y administra sistemas de gestión de calidad para orientarlos a la mejora continua, con la finalidad de lograr la eficacia 
+                                y eficiencia de la organización.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <p class="textoArea">Aplica las tecnologías de la información y comunicación en el diseño de estrategias que optimicen el trabajo y desarrollo de las organizaciones.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <p class="textoArea">Posee una visión multidisciplinaria para generar acciones ante escenarios de contingencia salvaguardando la integridad humana.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <p class="textoArea">Diseña estrategias de mercadotecnia basadas en el análisis de la información interna y del entorno global, 
+                                para asegurar el éxito de la comercialización de bienes y servicios de las organizaciones.</p>
                         </div>
                     </div>
 

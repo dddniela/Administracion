@@ -8,8 +8,8 @@ require_once("src/Models/Comunidad.php");
 $url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 
 $urlControl = array(
-$_SERVER['SERVER_NAME']."/Sistemas-Computacionales/",
-$_SERVER['SERVER_NAME']."/Sistemas-Computacionales/?option=0");
+$_SERVER['SERVER_NAME']."/Administracion/",
+$_SERVER['SERVER_NAME']."/Administracion/?option=0");
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
@@ -30,12 +30,12 @@ $comunidad->setConnection($conn->getDB());
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ingenieria, Sistemas, Sistemas Computacionales">
     <meta name="author" content="Daniela Castro Rodriguez, Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez,
-    Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez, Ángel Manuel Sandria Pérez">
+    Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez">
     <link rel="icon" href="img/itver-logo.PNG"/>
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Ingeniería Química</title>
+    <title>Licenciatura en Administración</title>
 </head>
     <?php
         include_once "src/View/header.php";  
