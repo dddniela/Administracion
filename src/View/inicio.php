@@ -10,11 +10,11 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/ITVER-1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_ECO011.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
-            <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
+            <h2 class="mainSubtitle text-center font-bold">Desarrolla habilidades administrativas</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -22,18 +22,18 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_3929.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_ECO001.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
-            <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
+            <h2 class="mainSubtitle text-center font-bold">Diseña estrategias de mercadotecnia</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_1891.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IMG_ECO002.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>

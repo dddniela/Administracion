@@ -6,7 +6,7 @@
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
         <h1 class="fw-bold text-light d-md-flex d-none">
-          Ingeniería Química
+          Licenciatura en Administración
         </h1>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Sistemas y Computación</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Departamento Económico - Administrativo</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -62,7 +62,7 @@
             <h2 class="sectionTitle text-center font-bold m-3">Daniela Hernández Barrios</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa del Departamento de Sistemas y Computación
+              Jefa del Departamento Económico - Administrativo
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -113,7 +113,7 @@
             <h2 class="sectionTitle text-center font-bold m-3">Berenice Lagunes Padilla</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Ingeniería en Sistemas Computacionales
+            Coordinadora de Licenciatura en Administración
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
@@ -314,7 +314,7 @@
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
     <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-    <p>Daniela Castro Rodriguez,Nancy Daniela Mendez Arpidez,
-    Gabriel Escobar Medina, Marco Gabriel Cortés Toledo, Yelitza Magali Rosas Jiménez</p>
+    <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, 
+      Marco Gabriel Cortés Toledo, Gabriel Escobar Medina </p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->
