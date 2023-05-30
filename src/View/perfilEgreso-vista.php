@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_ECO003.png" alt="">
+        <img class="w-100 img-fluid" src="img/IMG_ECO1821.png" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
@@ -68,7 +68,7 @@
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/ingenieria.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin1.png" alt="">
                             <p class="textoArea">Integra los procesos gerenciales, de administración, de innovación y 
                                 las estrategias para alcanzar la productividad y competitividad de las organizaciones.</p>
                         </div>
@@ -76,7 +76,7 @@
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/ing-software-icono.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin2.png" alt="">
                             <p class="textoArea">Adapta las etapas de los procesos a las nuevas tendencias y enfoques de la administración, 
                                 para la optimización de los recursos y el manejo de los cambios organizacionales, de acuerdo a las necesidades del entorno.</p>
                         </div>
@@ -84,7 +84,7 @@
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/redes.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin3.png" alt="">
                             <p class="textoArea">Desarrolla habilidades directivas basadas en la ética y la responsabilidad social, 
                                 que le permitan integrar y coordinar equipos interdisciplinarios y multidisciplinarios para el crecimiento de la organización.
                             </p>
@@ -93,7 +93,7 @@
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin4.png" alt="">
                             <p class="textoArea">Crea y desarrolla proyectos sustentables aplicando métodos de investigación de vanguardia, con un enfoque estratégico, 
                                 multicultural y humanista.</p>
                         </div>
@@ -101,42 +101,42 @@
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin5.png" alt="">
                             <p class="textoArea">Dirige la organización hacia la consecución de sus objetivos, a través de la coordinación de esfuerzos y el desarrollo creativo.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/distribuidas.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin6.png" alt="">
                             <p class="textoArea">Diseña organizaciones que contribuyan a la transformación económica y social identificando las oportunidades de negocios.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/administracion.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin7.png" alt="">
                             <p class="textoArea">Interpreta y aplica el marco legal vigente nacional e internacional, para dar certeza jurídica a las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin8.png" alt="">
                             <p class="textoArea">Interpreta información financiera y económica para la toma de decisiones en las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/programacion.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin9.png" alt="">
                             <p class="textoArea">Desarrolla el capital humano a través de la utilización de técnicas y herramientas gerenciales para la toma de decisiones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin10.png" alt="">
                             <p class="textoArea">Implementa y administra sistemas de gestión de calidad para orientarlos a la mejora continua, con la finalidad de lograr la eficacia 
                                 y eficiencia de la organización.</p>
                         </div>
@@ -144,21 +144,21 @@
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin11.png" alt="">
                             <p class="textoArea">Aplica las tecnologías de la información y comunicación en el diseño de estrategias que optimicen el trabajo y desarrollo de las organizaciones.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin12.png" alt="">
                             <p class="textoArea">Posee una visión multidisciplinaria para generar acciones ante escenarios de contingencia salvaguardando la integridad humana.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
+                            <img class="imagenArea items-center" src="img/iconos/admin13.png" alt="">
                             <p class="textoArea">Diseña estrategias de mercadotecnia basadas en el análisis de la información interna y del entorno global, 
                                 para asegurar el éxito de la comercialización de bienes y servicios de las organizaciones.</p>
                         </div>

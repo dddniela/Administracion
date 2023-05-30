@@ -14,14 +14,14 @@
 </div>
 <!-- Fin Portada-->
 
-<!-- Departamento de Sistemas -->
+<!-- Departamento de Económico - Administrativo -->
 <div class="bg-primary pt-5"></div>
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_2102.webp" alt="">
+        <img class="img-fluid rounded" src="img/IMG_0555.JPG" alt="">
       </div>
     </div>
 
@@ -33,14 +33,15 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en sistemas computacionales pertenece al
-              departamento de sistemas y computación, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
+            <p style="text-align: justify;"> La carrera de Licenciatura en Administración pertenece al
+              departamento económico - administrativo, el objetivo principal del
+              departamento es proporcionar a los estudiantes recursos y apoyo para el desarrollo 
+              de sus habilidades administrativas y el cumplimiento de los diferentes trámites necesarios
+              a lo largo de su plan de estudios. Esto incluye la gestión de prácticas profesionales, 
+              el seguimiento de créditos complementarios, el servicio social y las residencias profesionales. 
               profesionales.
+              Además, el departamento brinda acceso a laboratorios de cómputo para que los estudiantes puedan 
+              aplicar herramientas tecnológicas en el ámbito administrativo.
             </p>
           </div>
         </div>
@@ -49,7 +50,7 @@
 
   </div>
 </section>
-<!--Fin Departamento de Sistemas -->
+<!--Fin Departamento de economico -->
 
 <!-- Descripción Jefa/e del departamento -->
 <div class="bg-primary pt-5"></div>
@@ -59,7 +60,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Daniela Hernández Barrios</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Claudia Guadalupe Zarrabal Gutíerrez</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
               Jefa del Departamento Económico - Administrativo
@@ -67,12 +68,12 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <h6 class="text-center fw-bold fs-6">
-              “La inteligencia consiste no solo en el conocimiento, sino también
-              en la destreza de aplicarlos en la práctica”<br />
+              “Frase célebre”<br />
             </h6>
             <p class="" style="text-align: justify">
-              Daniela Hernández Barrios, Jefa del departamento de Sistemas y Computación de la carrera Ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; Ingeniero en Sistemas Computacionales, En el cargo
+              Claudia Guadalupe Zarrabal Gutíerrez, Jefa del departamento económico - administrativo de la carrera Ingeniería en
+              Gestión Empresarial y Licenciatura en Administración en el Tecnológico de Veracruz; 
+              Ingeniero en Sistemas Computacionales, En el cargo
               de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
               relacionados con las áreas de sistemas y computación de las carreras que se imparten en el instituto
               tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
@@ -87,7 +88,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/danielaHernandezBarrios.webp" alt="">
+        <img class="img-fluid rounded" src="img/Docentes/claudiaZarrabalGutierrez.jpeg" alt="">
       </div>
     </div>
 
