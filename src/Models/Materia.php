@@ -1,7 +1,7 @@
 <?php
 
 require_once "Conexion.php";
-$carreraID = 3;
+$carreraID = 2;
 
 class Materia
 {
@@ -178,6 +178,9 @@ function imprimirEspecialidad(){
     $cn = $this->connection;
     $sqlQ = "SELECT * FROM tbl_especialidad WHERE carreraId=" .$GLOBALS['carreraID'] .";";
     $especialidades = $cn->query($sqlQ); 
+    //lo puse para poder ver las materias de admon
+    $sql = 'SELECT * FROM tbl_materia WHERE carreraId=2 AND status = 1 ORDER BY nombre ASC';
+    
     $sqlQ = "SELECT * FROM tbl_materia WHERE area='Especialidad' AND carreraId=" .$GLOBALS['carreraID'] .";";
     $ResultSet = $cn->query($sqlQ); 
    
