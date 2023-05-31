@@ -91,14 +91,14 @@ class Docente
 
     public function getDocentes(){
         $docentes = array();
-        $sql = 'SELECT * FROM tbl_docente WHERE carreraId=11 AND status = 1 ORDER BY nombre ASC';
+        $sql = 'SELECT * FROM tbl_docente WHERE carreraId=2 AND status = 1 ORDER BY nombre ASC';
         $docentes = mysqli_query($this->connection,$sql);
         return $docentes;
     }
 
     function obtenerInformacion($LimiteInferior){
         $cn = $this->connection;
-        $stmt = $cn->prepare("SELECT * FROM tbl_docente WHERE carreraId=11 ORDER BY nombre ASC LIMIT ?,?");
+        $stmt = $cn->prepare("SELECT * FROM tbl_docente WHERE carreraId=2 ORDER BY nombre ASC LIMIT ?,?");
         $LimiteInferior =  $LimiteInferior-1;
         $LimiteSuperior =  12;
         $stmt->bind_param('ii', $LimiteInferior, $LimiteSuperior);
