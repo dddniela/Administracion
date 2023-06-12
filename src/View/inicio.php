@@ -172,12 +172,12 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-              El departamento de sistemas y computación cuenta con diversos laboratorios de equipo de cómputo en dónde los 
-              estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus 
-              clases prácticas en la carrera de ingeniería en sistemas computacionales. <br /><br />
-              
-              Los laboratorios de cómputo están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto 
-              para los docentes como los alumnos.
+
+              El departamento económico - administrativo colabora estrechamente con el cuerpo docente de la carrera de licenciatura en administración e 
+              ingeniería en gestión empresarial para asegurar que se cumplan con los objetivos de aprendizaje establecidos en el plan de estudios.  <br> <br>
+              También se encarga de recopilar datos y realizar seguimiento del desempeño de los estudiantes en las clases prácticas, 
+              se encarga de gestionar y coordinar, asegurando un entorno propicio para el desarrollo de programas, aplicaciones y proyectos por parte de los estudiantes.
+
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -187,7 +187,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_2102.webp" alt="">
+        <img class="img-fluid rounded" src="img/IMG_0555.JPG" alt="">
       </div>
     </div>
 
@@ -203,22 +203,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/abelardoRodriguezLeon.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-9.jpg"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/juliaGuadalupeTrujilloSalamanca.webp" alt="">
+              src="img/Docentes/Itver-11.jpg" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/bereniceLagunesPadilla.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-10.jpg"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/rafaelRiveraLopez.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-4.jpg" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/ernestoGarciaPerez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-5.jpg"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/normaFaviolaGarciaGomez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-8.jpg"
               alt="">
           </div>
 
@@ -277,13 +277,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_1245.webp" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/Itver Admon-5.jpg" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
     </div>
-
-    
 
   </div>
 </section>
@@ -363,7 +361,7 @@
     </div>
   </div>
   <div class="row g-0">
-    <h4 class="sectionTitle  text-center font-bold">Departamento de Sistemas Computacionales</h4>
+    <h4 class="sectionTitle  text-center font-bold">Departamento Económico - Administrativo</h4>
     <div class="d-flex flex-row justify-content-center">
       <a class="mx-2" href="https://www.facebook.com/profile.php?id=100065327956621" target="_blank"
         style="text-decoration: none;">
