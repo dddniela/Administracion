@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 31-05-2023 a las 21:48:58
--- Versión del servidor: 10.4.27-MariaDB
--- Versión de PHP: 8.2.0
+-- Tiempo de generación: 14-06-2023 a las 22:59:05
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `dashboardcarreras`
 --
-CREATE DATABASE IF NOT EXISTS `dashboardcarreras` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `dashboardcarreras`;
 
 -- --------------------------------------------------------
 
@@ -40,7 +38,7 @@ CREATE TABLE `tbl_administrativo` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_administrativo`
@@ -66,7 +64,7 @@ CREATE TABLE `tbl_administrativo_carrera` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_administrativo_carrera`
@@ -91,7 +89,7 @@ CREATE TABLE `tbl_carrera` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_carrera`
@@ -125,7 +123,7 @@ CREATE TABLE `tbl_carrera_docente` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_carrera_docente`
@@ -360,7 +358,7 @@ CREATE TABLE `tbl_comunidad` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_comunidad`
@@ -389,7 +387,7 @@ CREATE TABLE `tbl_departamento` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_departamento`
@@ -422,7 +420,7 @@ CREATE TABLE `tbl_docente` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_docente`
@@ -657,7 +655,7 @@ CREATE TABLE `tbl_especialidad` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_especialidad`
@@ -700,7 +698,7 @@ CREATE TABLE `tbl_materia` (
   `materiaId` int(11) NOT NULL,
   `carreraId` int(11) NOT NULL,
   `especialidadId` int(11) DEFAULT NULL,
-  `nombre` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `nombre` varchar(150) CHARACTER SET utf8 NOT NULL,
   `area` varchar(150) DEFAULT NULL,
   `semestre` int(11) NOT NULL,
   `competencia` text NOT NULL,
@@ -711,7 +709,7 @@ CREATE TABLE `tbl_materia` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_materia`
@@ -773,66 +771,66 @@ INSERT INTO `tbl_materia` (`materiaId`, `carreraId`, `especialidadId`, `nombre`,
 (53, 1, 2, 'Administración Financiera Internacional', NULL, 8, 'Conoce la estructura del Sistema Financiero Internacional y los mercados en que operan las organizaciones Internacionales.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (54, 1, 2, 'Gestión Portuaria', NULL, 9, 'Desarrollar habilidades básicas y fundamentales relacionadas con la Gestión Portuaria fundamentados en el Legislación que rige el Comercio Exterior.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (55, 1, 2, 'Plan de Negocios Internacionales', NULL, 9, 'Desarrolla habilidades de pensamiento estratégico y crítico de organización, marketing, producción, económico-financiero orientadas a desarrollar planes de negocios internacionales.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(56, 2, NULL, 'Teoría General de la Administración', NULL, 1, 'Identificar y enunciar los fundamentos generales de la administración que abarcan los distintos enfoques del pensamiento administrativo; la empresa, su clasificación y las tendencias globales, así como las competencias profesionales del administrador. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(57, 2, NULL, 'Informática para la Administración', NULL, 1, 'Desarrolla y utiliza las herramientas de las nuevas tecnologías de la información, que le permitan optimizar los procesos de comunicación y desarrollo en las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(58, 2, NULL, 'Taller de Ética', NULL, 1, 'Desarrolla conciencia sobre el significado y sentido de la Ética para orientar su comportamiento en el contexto social y profesional. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(59, 2, NULL, 'Fundamentos de Investigación', NULL, 1, 'Aplica los elementos de la investigación documental para elaborar escritos académicos de su entorno profesional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(60, 2, NULL, 'Matemáticas Aplicadas a la Administración', NULL, 1, 'Analiza y aplica los criterios matemáticos como funciones lineales, sistemas de ecuaciones, matrices, cálculo diferencial e integral para mejorar el análisis de las técnicas cuantitativas plicadas a modelos económicos administrativos', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(61, 2, NULL, 'Contabilidad General', NULL, 1, 'Identifica, analiza y aplica las técnicas y herramientas de carácter contable para generar información financiera de la organización.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(62, 2, NULL, 'Función Administrativa I', NULL, 2, ' Aplica las bases conceptuales y procedimentales del proceso administrativo, para elaborar planes y diseñar estructuras organizacionales que conduzcan a una organización al éxito. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(63, 2, NULL, 'Estadística para la Administración I', NULL, 2, 'Aplica e interpreta la estadística descriptiva en las organizaciones para la toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(64, 2, NULL, 'Derecho Laboral y Seguridad Social', NULL, 2, 'Interpreta el derecho laboral y la seguridad social vigentes, así como las implicaciones legales que tienen las empresas tanto públicas como privadas, para aplicar estos principios en el campo de su vida  profesional. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(65, 2, NULL, 'Comunicación Corporativa', NULL, 2, 'Establece una comunicación eficaz dentro y fuera de la organización, diseñando un plan de relaciones públicas a través de la utilización de las tecnologías de la información para las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(66, 2, NULL, 'Taller de Desarrollo Humano', NULL, 2, 'Entiende la importancia de su ser y de la vida, que le permita mantener un equilibrio personal a través del desarrollo sus capacidades, para mejorar su desempeño personal en las organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(67, 2, NULL, 'Costos de Manufactura', NULL, 2, ' Identifica y aplica el sistema de costos de producción para una adecuada toma de decisiones en relación al control y análisis de las operaciones productivas en la organización', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(68, 2, NULL, 'Función Administrativa II', NULL, 3, 'Aplica la fase dinámica procedimental del proceso administrativo para la integración, dirección y control en las organizaciones destacando las habilidades gerenciales. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(69, 2, NULL, 'Estadística para la Administración II', NULL, 3, 'Aplica herramientas de la inferencia estadística con métodos paramétricos y no paramétricos para la toma de decisiones en las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(70, 2, NULL, 'Derecho Empresarial', NULL, 3, 'Identifica la importancia del derecho empresarial en el desarrollo de las operaciones mercantiles, para interpretar el marco normativo y su aplicación en lasorganizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(71, 2, NULL, 'Comportamiento Organizacional', NULL, 3, 'Integra los elementos que conforman la organización que están relacionados con el comportamiento humano en un ambiente globalizado, para propiciar el desarrollo de organizaciones sanas.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(72, 2, NULL, 'Dinámica Social', NULL, 3, 'Analiza los elementos de los procesos básicos, la relación con sus estructuras y con la sociedad global que le permiten conceptualizar a las organizaciones como sistemas complejos con el fin de tomar la mejor decisión. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(73, 2, NULL, 'Contabilidad Gerencial', NULL, 3, 'Identifica y aplica las técnicas y herramientas administrativas, que a partir de la información financiera de la organización, apoyan las funciones de planeación, control y toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(74, 2, NULL, 'Gestión Estratégica del Capital Humano I', NULL, 4, 'Aplica modelos y procesos en el desarrollo del capital humano para lograr un alto desempeño en las organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(75, 2, NULL, 'Procesos Estructurales', NULL, 4, 'Diseña o rediseña sistemas organizacionales con el fin de lograr la competitividad y productividad de la empresa ante el constante cambio. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(76, 2, NULL, 'Métodos Cuantitativos para la Administración', NULL, 4, 'Aplica los métodos de la teoría de decisiones, programación lineal, administración de proyectos y modelos de líneas de espera como técnicas de análisis cuantitativo parala toma de decisiones en la administración. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(77, 2, NULL, 'Fundamentos de Mercadotecnia', NULL, 4, 'Identifica los conceptos básicos e importancia de la mercadotecnia para generar el sustento teórico que permita diseñar proyectos integradores en los diferentes entornos. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(78, 2, NULL, 'Economía Empresarial', NULL, 4, 'Reconoce y utiliza las diversas teorías y herramientas de análisis microeconómico para dar tratamiento a la información de la empresa y contribuir en la toma de decisiones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(79, 2, NULL, 'Matemáticas Financieras', NULL, 4, 'Aplica las herramientas de matemáticas financieras para establecer estrategias que apoyen la planeación, control y toma de decisiones para optimizar los resultados de la organización, de tal forma que ayuden en la solución de problemas financieros de forma efectiva. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(80, 2, NULL, 'Gestión Estratégica del Capital Humano II', NULL, 5, 'Realiza un diagnóstico del desempeño del capital humano, para detectar oportunidades de mejora e incrementar la competitividad de la organización.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(81, 2, NULL, 'Derecho Fiscal', NULL, 5, 'Conoce, interpreta y aplica con responsabilidad, honestidad y compromiso las disposiciones tributarias de las leyes fiscales en las organizaciones que les permitan cumplir con las obligaciones emanadas de ellas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(82, 2, NULL, 'Mezcla de Mercadotecnia ', NULL, 5, 'Diseña e implementa estrategias de mezcla de mercadotecnia basadas en el análisis de información sistemáticamente obtenida del entorno. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(83, 2, NULL, 'Macroeconomía', NULL, 5, 'Identifica y analiza las variables macroeconómicas fundamentales distinguiendo los agregados económicos para interpretar la dinámica de la actividad económica nacional, así como la afectación en las diferentes organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(84, 2, NULL, 'Administración Financiera I', NULL, 5, 'Analiza, interpreta y diagnostica la información financiera de organizaciones en la toma de decisiones para la optimización de los recursos. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(85, 2, NULL, 'Desarrollo Sustentable', NULL, 5, 'Aplica una visión sustentable, en los ámbitos social, económico y ambiental que le permitirá evaluar y disminuir el impacto de la sociedad sobre el entorno, tomando en cuenta estrategias y considerando profesionalmente los valores ambientales.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(86, 2, NULL, 'Gestión de la Retribución ', NULL, 6, 'Analiza las retribuciones de una organización desde un punto de vista legal y aplica las metodologías en su descripción y valuación para una mejor distribución y equidad en el sector productivo. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(87, 2, NULL, 'Producción', NULL, 6, 'Aplica los principios y técnicas más importantes de la administración de la producción para utilizar de manera eficiente y efectiva los recursos productivos de la empresa, así como el desarrollo de habilidades para resolver los problemas de toma de decisiones asertivas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(88, 2, NULL, 'Taller de Investigación I', NULL, 6, 'Elabora un protocolo de investigación en el que presenta soluciones científico -tecnológicas a problemáticas relacionadas con su campo profesional en diversos contextos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(89, 2, NULL, 'Sistemas de Información de Mercadotecnia', NULL, 6, 'Aplica el manejo de técnicas y herramientas que le permitan administrar los sistemas de información de mercadotecnia para generar, mediante la investigación, la toma de decisiones en los diversos ámbitos de las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(90, 2, NULL, 'Innovación y Emprededurismo ', NULL, 6, 'Fortalece el potencial creativo y emprendedor a través del desarrollo de las habilidades para definir objetivos y estrategias, para la búsqueda de información que propicie la toma de decisiones en equipos interdisciplinarios', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(91, 2, NULL, 'Administración Financiera II', NULL, 6, 'Aplica eficazmente las diversas técnicas de evaluación de presupuesto de capital y la operación en los mercados bursátiles y extrabursátiles para la mejor toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(92, 2, NULL, 'Plan de Negocios', NULL, 7, 'Elabora el plan de negocios para operar una empresa y/u obtener financiamiento, considerando los normatividad y reglas de operación vigentes. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(93, 2, NULL, 'Procesos de Dirección', NULL, 7, 'Integra el proceso de dirección estratégica en las organizaciones para incrementar la productividad y lograr una ventaja competitiva.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(94, 2, NULL, 'Taller de Investigación II', NULL, 7, 'Consolida el protocolo para ejecutar la investigación y obtener productos para su exposición, defensa y gestión de su transcendencia.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(95, 2, NULL, 'Administración de la Calidad', NULL, 7, 'Aplica los conocimientos, habilidades y actitudes requeridas en la administración de la calidad que permita mejorar la eficacia y eficiencia de la organización, tanto en sus procesos como en sus servicios, utilizando herramientas de control estadístico y de mejora continua para la toma de decisiones', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(96, 2, NULL, 'Economía Internacional', NULL, 7, 'Analiza la información económica internacional y diseña estrategias de mercado internacional adecuadas para las organizaciones de acuerdo al contexto global.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(97, 2, NULL, 'Diagnóstico y Evaluación Empresarial', NULL, 7, 'Elabora un informe donde emite una opinión acerca de la información presentada por la empresa después de haber verificado, evaluado y diagnosticado la estructura y funcionamiento general de una organización para lograr una administración más eficiente.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(98, 2, NULL, 'Consultoría Empresarial', NULL, 8, 'Analiza situaciones problemáticas en las organizaciones y aplica sus destrezas y habilidades en el diseño de propuestas de solución y su implantación para mejorar las prácticas empresariales. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(99, 2, NULL, 'Formulación y Evaluación de Proyectos', NULL, 8, 'Formula, evalúa y gestiona proyectos de inversión, que le permitan desarrollar proyectos integrales para la generación y crecimiento de las empresas bajo criterios de competitividad y sostenibilidad. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(100, 2, NULL, 'Desarrollo Organizacional', NULL, 8, 'Aplica los conceptos teórico-prácticos del desarrollo organizacional para mejorar el desempeño administrativo empresarial, a través del análisis de su cultura y ambiente organizacional fomentando el trabajo en equipo. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(101, 2, 3, 'Sistemas de Gestión de la Calidad', NULL, 8, 'Aplica los conocimientos, habilidades y actitudes requeridas en las Normas de Calidad que permita mejorar la eficacia y eficiencia de una organización, tanto en sus procesos como en sus servicios, con fines de lograr una certificación', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(102, 2, 3, 'Comunicación Intercultural', NULL, 8, 'Identificar las diferencias que se dan en la comunicación intercultural y facilitarle el conocimiento y las habilidades que le permitirán tener éxito al interaccionar con personas de culturas diferentes a la suya, incorporando la comunicación oral y escrita en idioma inglés', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(103, 2, 3, 'Liderazgo y Dirección de Talento Humano', NULL, 8, 'Desarrolla habilidades, actitudes, valores, experiencias y criterios que permitan al alumno desempeñarse exitosamente en actividades directivas, que tengan un impacto positivo en el desarrollo de talento humano.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(104, 2, 3, 'Toma de Decisiones ', NULL, 9, 'El estudiante comprenderá que las decisiones son el generador de los negocios y los impactos y consecuencias de ellas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(105, 2, 3, 'Tecnologías de la Información para los negocios', NULL, 9, 'Identifica los elementos básicos de la computadora y sus funciones. Identifica la terminología básica del sistema operativo. Guarda y recuperar la información en distintos medios de almacenamiento.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(106, 2, 3, 'Estrategias Comerciales', NULL, 9, 'Formular estrategias comerciales que le permitan al estudiante comprender la importancia del logro de metas, al desarrollar estrategias orientadas al cierre de la venta a través de la creación de hábitos de mejora continua, integridad y trabajo en equipo.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(107, 2, 3, 'Cultura de la Calidad', NULL, 9, 'Analizar la importancia del desarrollo de una cultura de calidad en las organizaciones y la calidad de vida en las personas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(108, 2, 3, 'Responsabilidad Social', NULL, 10, 'Comprender los conceptos teóricos básicos de la Responsabilidad Social Empresarial. Identificar los grupos de interés y los procesos de diálogo que generen valor para los involucrados. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(109, 2, 4, 'Mercadotecnia Internacional', NULL, 8, 'Conocer los tratados comerciales firmados por México con otros países. Implementar estrategias logísticas en la resolución de casos prácticos con la aplicación de tratados comerciales y barreras arancelarias utilizando las ventajas que ofrecen los tratados.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(110, 2, 4, 'Comunicación Intercultural', NULL, 8, 'Identificar las diferencias que se dan en la comunicación intercultural y facilitarle el conocimiento y las habilidades que le permitirán tener éxito al interaccionar con personas de culturas diferentes a la suya, incorporando la comunicación oral y escrita en idioma inglés.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(111, 2, 4, 'Tecnologías de Negocios Electrónicos ', NULL, 8, 'Aplica las tecnologías de información en las organizaciones para optimizar los procesos de comunicación y procesamiento de información y hacer eficiente la toma de decisiones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(112, 2, 4, 'Derecho Aduanero', NULL, 9, 'Investigar y analizar las diversas prácticas que contempla la Ley Aduanera, así como su reglamento para el ingreso y egreso legal de las mercancías.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(113, 2, 4, 'Gestión Portuaria', NULL, 9, 'Comprender losConceptos predominantes en el ámbito de la Gestión Internacional de los Recursos Humanos, lo que le permitirá conocer actividades de Reclutamiento, Selección, Integración, Contratación, Entrenamiento y Remuneraciones en este contexto internacional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(114, 2, 4, 'Administración Financiera', NULL, 9, 'Desarrolla habilidades orientadas a solucionar problemáticas de negocios globales y a detectar oportunidades, tomando en cuenta el entorno cultural, político, económico de las organizaciones internacionales', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(115, 2, 4, 'Gestión Internacional de Recursos Humanos', NULL, 10, 'La competencia específica de la asignatura, comprende los conceptos predominantes en el ámbito de la Gestión Internacional de los Recursos Humanos, lo que le permitirá conocer actividades de Reclutamiento, Selección, Integración, Contratación, Entrenamiento y Remuneraciones en este contexto internacional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(56, 2, NULL, 'Teoría General de la Administración', 'Administracion', 1, 'Identificar y enunciar los fundamentos generales de la administración que abarcan los distintos enfoques del pensamiento administrativo; la empresa, su clasificación y las tendencias globales, así como las competencias profesionales del administrador. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(57, 2, NULL, 'Informática para la Administración', 'Informatica', 1, 'Desarrolla y utiliza las herramientas de las nuevas tecnologías de la información, que le permitan optimizar los procesos de comunicación y desarrollo en las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(58, 2, NULL, 'Taller de Ética', 'Asignaturas Comunes', 1, 'Desarrolla conciencia sobre el significado y sentido de la Ética para orientar su comportamiento en el contexto social y profesional. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(59, 2, NULL, 'Fundamentos de Investigación', 'Investigacion', 1, 'Aplica los elementos de la investigación documental para elaborar escritos académicos de su entorno profesional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(60, 2, NULL, 'Matemáticas Aplicadas a la Administración', 'Matematicas', 1, 'Analiza y aplica los criterios matemáticos como funciones lineales, sistemas de ecuaciones, matrices, cálculo diferencial e integral para mejorar el análisis de las técnicas cuantitativas plicadas a modelos económicos administrativos', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(61, 2, NULL, 'Contabilidad General', 'Contabilidad', 1, 'Identifica, analiza y aplica las técnicas y herramientas de carácter contable para generar información financiera de la organización.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(62, 2, NULL, 'Función Administrativa I', 'Administracion', 2, ' Aplica las bases conceptuales y procedimentales del proceso administrativo, para elaborar planes y diseñar estructuras organizacionales que conduzcan a una organización al éxito. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(63, 2, NULL, 'Estadística para la Administración I', 'Estadistica', 2, 'Aplica e interpreta la estadística descriptiva en las organizaciones para la toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(64, 2, NULL, 'Derecho Laboral y Seguridad Social', 'Derecho', 2, 'Interpreta el derecho laboral y la seguridad social vigentes, así como las implicaciones legales que tienen las empresas tanto públicas como privadas, para aplicar estos principios en el campo de su vida  profesional. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(65, 2, NULL, 'Comunicación Corporativa', 'Comunicacion', 2, 'Establece una comunicación eficaz dentro y fuera de la organización, diseñando un plan de relaciones públicas a través de la utilización de las tecnologías de la información para las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(66, 2, NULL, 'Taller de Desarrollo Humano', 'Humano', 2, 'Entiende la importancia de su ser y de la vida, que le permita mantener un equilibrio personal a través del desarrollo sus capacidades, para mejorar su desempeño personal en las organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(67, 2, NULL, 'Costos de Manufactura', 'Costos', 2, ' Identifica y aplica el sistema de costos de producción para una adecuada toma de decisiones en relación al control y análisis de las operaciones productivas en la organización', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(68, 2, NULL, 'Función Administrativa II', 'Administracion', 3, 'Aplica la fase dinámica procedimental del proceso administrativo para la integración, dirección y control en las organizaciones destacando las habilidades gerenciales. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(69, 2, NULL, 'Estadística para la Administración II', 'Estadistica', 3, 'Aplica herramientas de la inferencia estadística con métodos paramétricos y no paramétricos para la toma de decisiones en las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(70, 2, NULL, 'Derecho Empresarial', 'Derecho', 3, 'Identifica la importancia del derecho empresarial en el desarrollo de las operaciones mercantiles, para interpretar el marco normativo y su aplicación en lasorganizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(71, 2, NULL, 'Comportamiento Organizacional', 'Mercadotecnia', 3, 'Integra los elementos que conforman la organización que están relacionados con el comportamiento humano en un ambiente globalizado, para propiciar el desarrollo de organizaciones sanas.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(72, 2, NULL, 'Dinámica Social', 'Humano', 3, 'Analiza los elementos de los procesos básicos, la relación con sus estructuras y con la sociedad global que le permiten conceptualizar a las organizaciones como sistemas complejos con el fin de tomar la mejor decisión. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(73, 2, NULL, 'Contabilidad Gerencial', 'Contabilidad', 3, 'Identifica y aplica las técnicas y herramientas administrativas, que a partir de la información financiera de la organización, apoyan las funciones de planeación, control y toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(74, 2, NULL, 'Gestión Estratégica del Capital Humano I', 'Humano', 4, 'Aplica modelos y procesos en el desarrollo del capital humano para lograr un alto desempeño en las organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(75, 2, NULL, 'Procesos Estructurales', 'Procesos', 4, 'Diseña o rediseña sistemas organizacionales con el fin de lograr la competitividad y productividad de la empresa ante el constante cambio. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(76, 2, NULL, 'Métodos Cuantitativos para la Administración', 'Administracion', 4, 'Aplica los métodos de la teoría de decisiones, programación lineal, administración de proyectos y modelos de líneas de espera como técnicas de análisis cuantitativo parala toma de decisiones en la administración. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(77, 2, NULL, 'Fundamentos de Mercadotecnia', 'Mercadotecnia', 4, 'Identifica los conceptos básicos e importancia de la mercadotecnia para generar el sustento teórico que permita diseñar proyectos integradores en los diferentes entornos. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(78, 2, NULL, 'Economía Empresarial', 'Economia', 4, 'Reconoce y utiliza las diversas teorías y herramientas de análisis microeconómico para dar tratamiento a la información de la empresa y contribuir en la toma de decisiones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(79, 2, NULL, 'Matemáticas Financieras', 'Matematicas', 4, 'Aplica las herramientas de matemáticas financieras para establecer estrategias que apoyen la planeación, control y toma de decisiones para optimizar los resultados de la organización, de tal forma que ayuden en la solución de problemas financieros de forma efectiva. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(80, 2, NULL, 'Gestión Estratégica del Capital Humano II', 'Humano', 5, 'Realiza un diagnóstico del desempeño del capital humano, para detectar oportunidades de mejora e incrementar la competitividad de la organización.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(81, 2, NULL, 'Derecho Fiscal', 'Derecho', 5, 'Conoce, interpreta y aplica con responsabilidad, honestidad y compromiso las disposiciones tributarias de las leyes fiscales en las organizaciones que les permitan cumplir con las obligaciones emanadas de ellas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(82, 2, NULL, 'Mezcla de Mercadotecnia ', 'Mercadotecnia', 5, 'Diseña e implementa estrategias de mezcla de mercadotecnia basadas en el análisis de información sistemáticamente obtenida del entorno. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(83, 2, NULL, 'Macroeconomía', 'Economia', 5, 'Identifica y analiza las variables macroeconómicas fundamentales distinguiendo los agregados económicos para interpretar la dinámica de la actividad económica nacional, así como la afectación en las diferentes organizaciones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(84, 2, NULL, 'Administración Financiera I', 'Administracion', 5, 'Analiza, interpreta y diagnostica la información financiera de organizaciones en la toma de decisiones para la optimización de los recursos. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(85, 2, NULL, 'Desarrollo Sustentable', 'Asignaturas Comunes', 5, 'Aplica una visión sustentable, en los ámbitos social, económico y ambiental que le permitirá evaluar y disminuir el impacto de la sociedad sobre el entorno, tomando en cuenta estrategias y considerando profesionalmente los valores ambientales.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(86, 2, NULL, 'Gestión de la Retribución ', 'Administracion', 6, 'Analiza las retribuciones de una organización desde un punto de vista legal y aplica las metodologías en su descripción y valuación para una mejor distribución y equidad en el sector productivo. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(87, 2, NULL, 'Producción', 'Produccion', 6, 'Aplica los principios y técnicas más importantes de la administración de la producción para utilizar de manera eficiente y efectiva los recursos productivos de la empresa, así como el desarrollo de habilidades para resolver los problemas de toma de decisiones asertivas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(88, 2, NULL, 'Taller de Investigación I', 'Investigacion', 6, 'Elabora un protocolo de investigación en el que presenta soluciones científico -tecnológicas a problemáticas relacionadas con su campo profesional en diversos contextos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(89, 2, NULL, 'Sistemas de Información de Mercadotecnia', 'Mercadotecnia', 6, 'Aplica el manejo de técnicas y herramientas que le permitan administrar los sistemas de información de mercadotecnia para generar, mediante la investigación, la toma de decisiones en los diversos ámbitos de las organizaciones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(90, 2, NULL, 'Innovación y Emprededurismo ', 'Negocios', 6, 'Fortalece el potencial creativo y emprendedor a través del desarrollo de las habilidades para definir objetivos y estrategias, para la búsqueda de información que propicie la toma de decisiones en equipos interdisciplinarios', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(91, 2, NULL, 'Administración Financiera II', 'Administracion', 6, 'Aplica eficazmente las diversas técnicas de evaluación de presupuesto de capital y la operación en los mercados bursátiles y extrabursátiles para la mejor toma de decisiones.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(92, 2, NULL, 'Plan de Negocios', 'Negocios', 7, 'Elabora el plan de negocios para operar una empresa y/u obtener financiamiento, considerando los normatividad y reglas de operación vigentes. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(93, 2, NULL, 'Procesos de Dirección', 'Procesos', 7, 'Integra el proceso de dirección estratégica en las organizaciones para incrementar la productividad y lograr una ventaja competitiva.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(94, 2, NULL, 'Taller de Investigación II', 'Investigacion', 7, 'Consolida el protocolo para ejecutar la investigación y obtener productos para su exposición, defensa y gestión de su transcendencia.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(95, 2, NULL, 'Administración de la Calidad', 'Administracion', 7, 'Aplica los conocimientos, habilidades y actitudes requeridas en la administración de la calidad que permita mejorar la eficacia y eficiencia de la organización, tanto en sus procesos como en sus servicios, utilizando herramientas de control estadístico y de mejora continua para la toma de decisiones', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(96, 2, NULL, 'Economía Internacional', 'Economia', 7, 'Analiza la información económica internacional y diseña estrategias de mercado internacional adecuadas para las organizaciones de acuerdo al contexto global.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(97, 2, NULL, 'Diagnóstico y Evaluación Empresarial', 'Produccion', 7, 'Elabora un informe donde emite una opinión acerca de la información presentada por la empresa después de haber verificado, evaluado y diagnosticado la estructura y funcionamiento general de una organización para lograr una administración más eficiente.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(98, 2, NULL, 'Consultoría Empresarial', 'Procesos', 8, 'Analiza situaciones problemáticas en las organizaciones y aplica sus destrezas y habilidades en el diseño de propuestas de solución y su implantación para mejorar las prácticas empresariales. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(99, 2, NULL, 'Formulación y Evaluación de Proyectos', 'Investigacion', 8, 'Formula, evalúa y gestiona proyectos de inversión, que le permitan desarrollar proyectos integrales para la generación y crecimiento de las empresas bajo criterios de competitividad y sostenibilidad. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(100, 2, NULL, 'Desarrollo Organizacional', 'Produccion', 8, 'Aplica los conceptos teórico-prácticos del desarrollo organizacional para mejorar el desempeño administrativo empresarial, a través del análisis de su cultura y ambiente organizacional fomentando el trabajo en equipo. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(101, 2, 3, 'Sistemas de Gestión de la Calidad', 'Administracion', 8, 'Aplica los conocimientos, habilidades y actitudes requeridas en las Normas de Calidad que permita mejorar la eficacia y eficiencia de una organización, tanto en sus procesos como en sus servicios, con fines de lograr una certificación', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(102, 2, 3, 'Comunicación Intercultural', 'Comunicacion', 8, 'Identificar las diferencias que se dan en la comunicación intercultural y facilitarle el conocimiento y las habilidades que le permitirán tener éxito al interaccionar con personas de culturas diferentes a la suya, incorporando la comunicación oral y escrita en idioma inglés', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(103, 2, 3, 'Liderazgo y Dirección de Talento Humano', 'Humano', 8, 'Desarrolla habilidades, actitudes, valores, experiencias y criterios que permitan al alumno desempeñarse exitosamente en actividades directivas, que tengan un impacto positivo en el desarrollo de talento humano.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(104, 2, 3, 'Toma de Decisiones ', 'Negocios', 9, 'El estudiante comprenderá que las decisiones son el generador de los negocios y los impactos y consecuencias de ellas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(105, 2, 3, 'Tecnologías de la Información para los negocios', 'Informatica', 9, 'Identifica los elementos básicos de la computadora y sus funciones. Identifica la terminología básica del sistema operativo. Guarda y recuperar la información en distintos medios de almacenamiento.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(106, 2, 3, 'Estrategias Comerciales', 'Economia', 9, 'Formular estrategias comerciales que le permitan al estudiante comprender la importancia del logro de metas, al desarrollar estrategias orientadas al cierre de la venta a través de la creación de hábitos de mejora continua, integridad y trabajo en equipo.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(107, 2, 3, 'Cultura de la Calidad', 'Produccion', 9, 'Analizar la importancia del desarrollo de una cultura de calidad en las organizaciones y la calidad de vida en las personas', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(108, 2, 3, 'Responsabilidad Social', 'Derecho', 10, 'Comprender los conceptos teóricos básicos de la Responsabilidad Social Empresarial. Identificar los grupos de interés y los procesos de diálogo que generen valor para los involucrados. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(109, 2, 4, 'Mercadotecnia Internacional', 'Mercadotecnia', 8, 'Conocer los tratados comerciales firmados por México con otros países. Implementar estrategias logísticas en la resolución de casos prácticos con la aplicación de tratados comerciales y barreras arancelarias utilizando las ventajas que ofrecen los tratados.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(110, 2, 4, 'Comunicación Intercultural', 'Comunicacion', 8, 'Identificar las diferencias que se dan en la comunicación intercultural y facilitarle el conocimiento y las habilidades que le permitirán tener éxito al interaccionar con personas de culturas diferentes a la suya, incorporando la comunicación oral y escrita en idioma inglés.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(111, 2, 4, 'Tecnologías de Negocios Electrónicos ', 'Informatica', 8, 'Aplica las tecnologías de información en las organizaciones para optimizar los procesos de comunicación y procesamiento de información y hacer eficiente la toma de decisiones. ', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(112, 2, 4, 'Derecho Aduanero', 'Derecho', 9, 'Investigar y analizar las diversas prácticas que contempla la Ley Aduanera, así como su reglamento para el ingreso y egreso legal de las mercancías.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(113, 2, 4, 'Gestión Portuaria', 'Produccion', 9, 'Comprender losConceptos predominantes en el ámbito de la Gestión Internacional de los Recursos Humanos, lo que le permitirá conocer actividades de Reclutamiento, Selección, Integración, Contratación, Entrenamiento y Remuneraciones en este contexto internacional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(114, 2, 4, 'Administración Financiera', 'Administracion', 9, 'Desarrolla habilidades orientadas a solucionar problemáticas de negocios globales y a detectar oportunidades, tomando en cuenta el entorno cultural, político, económico de las organizaciones internacionales', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(115, 2, 4, 'Gestión Internacional de Recursos Humanos', 'Humano', 10, 'La competencia específica de la asignatura, comprende los conceptos predominantes en el ámbito de la Gestión Internacional de los Recursos Humanos, lo que le permitirá conocer actividades de Reclutamiento, Selección, Integración, Contratación, Entrenamiento y Remuneraciones en este contexto internacional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (116, 3, NULL, 'Taller de ética', NULL, 1, 'Desarrolla conciencia sobre el significado y sentido de la Ética para orientar su comportamiento en el contexto social y profesional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (117, 3, NULL, 'Fundamentos de investigación', NULL, 1, 'Aplica los elementos de la investigación documental para elaborar escritos académicos de su entorno profesional.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (118, 3, NULL, 'Cálculo diferencial', NULL, 1, 'Plantea y resuelve problemas utilizando las definiciones de límite y derivada de funciones de una variable para la elaboración de modelos matemáticos aplicados.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
@@ -885,10 +883,10 @@ INSERT INTO `tbl_materia` (`materiaId`, `carreraId`, `especialidadId`, `nombre`,
 (165, 3, 6, 'Química de Alimentos', NULL, 7, 'Relacionar las características bioquímicas y de funcionalidad química del agua, proteínas y enzimas, carbohidratos, lípidos, vitaminas y minerales con su influencia sobre los alimentos y los procesos de transformación en los alimentos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (166, 3, 6, 'Innovaciones Tecnológicas en la Industria Alimentaria', NULL, 7, 'Desarrollar mecanismos para la producción de nuevos alimentos funcionalizados de origen animal o vegetal tomando en consideración las propiedades fisicoquímicas, sensoriales, así como las legislaciones vigentes de este tipo de productos alimenticios.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (167, 3, 6, 'Ingeniería de Alimentos', NULL, 7, 'Conocer, comprender y dominar las características y aplicación de las operaciones unitarias y los procesos de conservación, embalaje y empacado más comunes en la industria de alimentos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(168, 3, 6, 'Microbiología y la Ingeniería  Alimentaria', NULL, 8, 'Analizar y valorar la importancia de la microbiología en los alimentos, considerando su identificación y cuantificación para asegurar la inocuidad de los alimentos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(169, 3, 7, 'Ingeniería de Procesos Ambientales', NULL, 8, 'Conoce los mecanismos de potabilización del agua, del tratamiento de aguas residuales, residuos sólidos y peligrosos y de emisiones a la atmósfer', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(170, 3, 7, 'Seguridad Laboral', NULL, 8, 'Proporcionar los conocimientos necesarios para la Gestión y el monitoreo la seguridad laboral de los trabajadores de la empresa.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30');
+(168, 3, 6, 'Microbiología y la Ingeniería  Alimentaria', NULL, 8, 'Analizar y valorar la importancia de la microbiología en los alimentos, considerando su identificación y cuantificación para asegurar la inocuidad de los alimentos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30');
 INSERT INTO `tbl_materia` (`materiaId`, `carreraId`, `especialidadId`, `nombre`, `area`, `semestre`, `competencia`, `urlVideo`, `urlPrograma`, `status`, `createdBy`, `createdAt`, `updatedBy`, `updatedAt`) VALUES
+(169, 3, 7, 'Ingeniería de Procesos Ambientales', NULL, 8, 'Conoce los mecanismos de potabilización del agua, del tratamiento de aguas residuales, residuos sólidos y peligrosos y de emisiones a la atmósfer', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
+(170, 3, 7, 'Seguridad Laboral', NULL, 8, 'Proporcionar los conocimientos necesarios para la Gestión y el monitoreo la seguridad laboral de los trabajadores de la empresa.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (171, 3, 7, 'Seguridad y Riesgo de los Proceso', NULL, 8, 'Proporcionar los conocimientos necesarios para la administración de Riesgos en las empresas mediante el conocimiento del Sistema Globalmente Armonizado, los mecanismos de Identificación, Cuantificación y Jerarquización de Riesgos.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (172, 3, 7, 'Gestión Integral de Residuos', NULL, 8, 'Identificar los diferentes aspectos de la problemática ambiental por residuos, clasificar las fuentes contaminantes, conocer los conceptos básicos para identificar, y caracterizar los residuos,saber los principios de operación de los diferentes tratamientos aplicados para su prevención y control.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (173, 3, 7, 'Gestión Ambiental', NULL, 8, 'Proporcionar los conocimientos necesarios para comprender los sistemas de gestión, la política ambiental, administrativa y jurídica que se aplica en materia ambiental en el país, para la protección del ambiente.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
@@ -1052,10 +1050,10 @@ INSERT INTO `tbl_materia` (`materiaId`, `carreraId`, `especialidadId`, `nombre`,
 (378, 7, NULL, 'Gestión de los Sistemas de Calidad', NULL, 7, 'Aplica los requisitos y principios de los sistemas de Gestión de Calidad con base al Marco Normativo Internacional y sus equivalentes nacionales en el diseño, implementación y mejora del modelo de calidad en las organizaciones, con la finalidad de hacerlas más productivas en un entorno de competitividad, sustentabilidad y lograr permanencia en la trascendencia de las empresas nacionales y extranjeras.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (379, 7, NULL, 'Ingeniería de Sistemas', NULL, 7, 'Desarrollar un pensamiento holístico al obtener conocimientos sobre el enfoque de sistemas, que le permita un mejor análisis para la toma de decisiones, búsqueda de alternativas y oportunidades, para redefinir y solucionar problemas, estableciendo una relación armónica con su medio ambiente comprendiendo todas las entradas, salidas del sistema, sus interrelaciones y características de suselementos permitiéndole modelar un sistema de interés para obtener una solución viable respetando la naturaleza del sistema.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
 (380, 7, NULL, 'Formulación y Evaluación de Proyectos', NULL, 8, 'Formula, evalúa y gestiona proyectos de inversión, que le permitan desarrollar proyectos integrales para la generación y crecimiento de las empresas bajo criterios de competitividad y sostenibilidad.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(381, 7, NULL, 'Relaciones industriales', NULL, 8, 'Aplicar las técnicas fundamentales de la administración de recursos humanos para el buen funcionamiento y evolución en las organizaciones de manufactura y servicios.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30'),
-(382, 8, NULL, 'Química ', NULL, 1, 'Aplica conocimientos, teorías, conceptos y procedimientos básicos de química en la comprensión de los fenómenos involucrados para su aplicación en la generación de energía proveniente de fuentes renovables.', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
-(383, 8, NULL, 'Programación', NULL, 1, 'Implementa mediante el uso de estructuras de control, bibliotecas, funciones, arreglos y archivos programas que permitan una solución rápida a problemas donde intervienen los sistemas renovables de energía.', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31');
+(381, 7, NULL, 'Relaciones industriales', NULL, 8, 'Aplicar las técnicas fundamentales de la administración de recursos humanos para el buen funcionamiento y evolución en las organizaciones de manufactura y servicios.', NULL, NULL, 1, NULL, '2023-05-30', NULL, '2023-05-30');
 INSERT INTO `tbl_materia` (`materiaId`, `carreraId`, `especialidadId`, `nombre`, `area`, `semestre`, `competencia`, `urlVideo`, `urlPrograma`, `status`, `createdBy`, `createdAt`, `updatedBy`, `updatedAt`) VALUES
+(382, 8, NULL, 'Química ', NULL, 1, 'Aplica conocimientos, teorías, conceptos y procedimientos básicos de química en la comprensión de los fenómenos involucrados para su aplicación en la generación de energía proveniente de fuentes renovables.', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
+(383, 8, NULL, 'Programación', NULL, 1, 'Implementa mediante el uso de estructuras de control, bibliotecas, funciones, arreglos y archivos programas que permitan una solución rápida a problemas donde intervienen los sistemas renovables de energía.', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
 (384, 8, NULL, 'Fuentes Renovables de Energía', NULL, 1, 'Analiza los diferentes tipos de energías provenientes de fuentes renovables con la finalidad de identificar que recurso utilizar en un sitio determinado', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
 (385, 8, NULL, 'Cálculo Diferencial', NULL, 1, 'Plantea y resuelve problemas utilizando las definiciones de límite y derivada de funciones de una variable para la elaboración de modelos matemáticos aplicados.', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
 (386, 8, NULL, 'Bioquímica ', NULL, 2, 'Analiza las teorías, conceptos y procedimientos básicos de bioquímica que le permiten comprender los procesos involucrados en el metabolismo microbiano', NULL, NULL, 1, NULL, '2023-05-31', NULL, '2023-05-31'),
@@ -1238,7 +1236,7 @@ CREATE TABLE `tbl_modulo` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_modulo`
@@ -1271,7 +1269,7 @@ CREATE TABLE `tbl_objeto` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_objeto`
@@ -1302,7 +1300,7 @@ CREATE TABLE `tbl_puesto_administrativo` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_puesto_administrativo`
@@ -1328,7 +1326,7 @@ CREATE TABLE `tbl_rol` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_rol`
@@ -1355,7 +1353,7 @@ CREATE TABLE `tbl_rol_permiso` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1374,7 +1372,7 @@ CREATE TABLE `tbl_seccion` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_seccion`
@@ -1398,7 +1396,7 @@ CREATE TABLE `tbl_tipo_objeto` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -1417,7 +1415,7 @@ CREATE TABLE `tbl_usuario` (
   `createdAt` date DEFAULT NULL,
   `updatedBy` int(2) DEFAULT NULL,
   `updatedAt` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tbl_usuario`

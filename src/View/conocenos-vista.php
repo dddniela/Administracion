@@ -105,7 +105,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Ivonne Ramirez Gutierrez</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Ivonne Ramirez Gutíerrez</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
             Coordinadora de Licenciatura en Administración
