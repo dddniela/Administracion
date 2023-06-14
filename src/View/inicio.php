@@ -206,7 +206,7 @@
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/juliaRiveraMoreno.jpg"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/Itver-11.jpg" alt="">
+              src="img/Docentes/myrnaGuadalupeAndradeEstrada.jpg" alt="">
           </div>
 
           <div class="col-4 px-2">

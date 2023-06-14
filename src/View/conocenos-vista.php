@@ -29,7 +29,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Departamento Económico - Administrativo</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Ciencias Económico-Administrativas</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -63,7 +63,7 @@
             <h2 class="sectionTitle text-center font-bold m-3">Claudia Guadalupe Zarrabal Gutíerrez</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa del Departamento Económico - Administrativo
+              Jefa del Departamento de Ciencias Económico-Administrativas
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -103,7 +103,7 @@
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/bereniceLagunesPadilla.webp" alt="">
+        <img class="img-fluid rounded" src="img/Docentes/ivonneRamirezGuetierrez.png" alt="">
       </div>
     </div>
 
@@ -111,7 +111,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Berenice Lagunes Padilla</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Ivonne Ramirez Gutierrez</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
             Coordinadora de Licenciatura en Administración
