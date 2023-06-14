@@ -4,7 +4,7 @@ require_once("src/Models/Conexion.php");
 require_once "src/Models/Docente.php";
 require_once("src/Models/Materia.php");
 require_once("src/Models/Especialidad.php");
-require_once("src/Models/Comunidad.php");
+//require_once("src/Models/Comunidad.php");
 $url = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];
 
 $urlControl = array(
@@ -20,8 +20,8 @@ $materia = new Materia();
 $materia->setConnection($conn->getDB());
 $especialidad = new Especialidad();
 $especialidad->setConnection($conn->getDB());
-$comunidad = new Comunidad();
-$comunidad->setConnection($conn->getDB());
+//$comunidad = new Comunidad();
+//$comunidad->setConnection($conn->getDB());
 ?>
 
 <!DOCTYPE html>

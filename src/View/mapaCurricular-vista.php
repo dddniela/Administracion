@@ -535,7 +535,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/estatua.png" alt="">
+                <img class="img-fluid rounded" src="img/IMG_0456.webp" alt="">
             </div>
         </div>
 

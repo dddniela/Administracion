@@ -71,15 +71,9 @@
               “Frase célebre”<br />
             </h6>
             <p class="" style="text-align: justify">
-              Claudia Guadalupe Zarrabal Gutíerrez, Jefa del departamento económico - administrativo de la carrera Ingeniería en
-              Gestión Empresarial y Licenciatura en Administración en el Tecnológico de Veracruz; 
-              Ingeniero en Sistemas Computacionales, En el cargo
-              de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de sistemas y computación de las carreras que se imparten en el instituto
-              tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
-              derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
-              actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
-              con calidad y espíritu de servicio.
+            Claudia Guadalupe Zarrabal Gutíerrez, Jefa del Departamento de Ciencias Económico-Administrativas en el Tecnológico de Veracruz; 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quam recusandae harum consectetur quia odio mollitia quae veniam minus tempora aspernatur ab optio nesciunt non delectus esse, reiciendis doloribus nulla.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci esse velit doloremque illum odit cum ratione autem quia, consequatur at corporis quisquam, magnam officia aliquam sit perferendis molestias error.
             </p>
           </div>
         </div>
@@ -88,7 +82,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/claudiaZarrabalGutierrez.jpeg" alt="">
+        <img class="img-fluid rounded" src="img/Docentes/claudiaZarrabalGutierrez.png" alt="">
       </div>
     </div>
 
@@ -118,19 +112,14 @@
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
+          <h6 class="text-center fw-bold fs-6">
+              “Frase célebre”<br />
+            </h6>
             <p class="" style="text-align: justify">
-              Berenice Lagunes Padilla, coordinadora de la carrera ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; licenciada
-              en Ciencias de la Educación, con maestría en Educación por
-              competencias. En el cargo de coordinación, su función principal,
-              es la orientación académica de los alumnos estudiantes de dicha
-              licenciatura a lo largo de su estancia en la Institución, para un
-              correcto avance y aprovechamiento de su programa de estudios. Así
-              mismo se realizan diferentes funciones en la coordinación, como lo
-              son: consulta y cambio de NIP, realizar la estructura académica
-              con base en las estadísticas de la población inscrita y las
-              necesidades de grupos que así se generen dentro de los periodos
-              semestrales así como de cursos de verano.
+              Ivonne Ramirez Gutierrez, coordinadora de la carrera Ingeniería en Gestión Empresarial
+              y Licenciatura en Administración en el Tecnológico de Veracruz; 
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ab assumenda architecto temporibus deleniti maiores numquam vitae, magni molestiae sequi possimus nobis aspernatur quasi voluptates! Sapiente odio veritatis officia ipsa!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem adipisci numquam in sit est tempora, illum ex unde, voluptates suscipit quibusdam quia aspernatur repellendus, deserunt placeat veritatis id rerum.
             </p>
           </div>
         </div>
@@ -143,7 +132,7 @@
 <!--Fin Descripción Jefa/e del departamento -->
 
 
-<!-- Instalaciones -->
+<!-- Instalaciones 
 <div class="bg-primary pt-5"></div>
 <section class="seccionInstalaciones bg-dark">
   <div class="row px-2 g-0">
@@ -185,7 +174,9 @@
     </div>
 
     <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      <!-- Galería con modal para laboratorios de cómputo -->
+      -->
+
+      <!-- Galería con modal para laboratorios de cómputo 
       <div class="contenedor-galeria bg-dark">
         <div class="row">
           <div class="col-lg-6">
@@ -207,14 +198,16 @@
           </div>
         </div>
       </div>
-      <!-- Fin Galería con modal para laboratorios de cómputo -->
+       Fin Galería con modal para laboratorios de cómputo 
     </div>
   </div>
 </section>
-<!--Fin Instalaciones-->
 
-<!-- Modals de la galería-->
-<!-- Imagen 1 -->
+Fin Instalaciones-->
+
+<!-- Modals de la galería
+
+Imagen 1 
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
@@ -223,7 +216,7 @@
   </div>
 </div>
 
-<!-- Imagen 2 -->
+Imagen 2
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
@@ -232,7 +225,7 @@
   </div>
 </div>
 
-<!-- Imagen 3 -->
+Imagen 3
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
@@ -241,7 +234,7 @@
   </div>
 </div>
 
-<!-- Imagen 4 -->
+Imagen 4
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
@@ -249,9 +242,9 @@
     </div>
   </div>
 </div>
-<!-- Fin Modals de la galería-->
+Fin Modals de la galería-->
 
-<!-- Laboratorio de cómputo intensivo -->
+<!-- Laboratorio de cómputo intensivo 
 <div class="bg-primary pt-5"></div>
 <section class="seccionInstalaciones bg-dark p-2">
   <div class="row px-2 g-0">
@@ -318,4 +311,4 @@
     <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, 
       Marco Gabriel Cortés Toledo, Gabriel Escobar Medina </p>
 </div>
-<!-- Fin Laboratorio de cómputo intensivo -->
+ Fin Laboratorio de cómputo intensivo -->

@@ -28,15 +28,54 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Administracion':
+                $ruta_img = 'img/iconos/admin.png';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Asignaturas Comunes':
+                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Informatica':
+                $ruta_img = 'img/iconos/informatica.png';
                 break;
+            case 'Investigacion':
+                $ruta_img = 'img/iconos/investigacion.png';
+                break;
+            case 'Matematicas':
+                $ruta_img = 'img/iconos/matematicas.png';
+                break;
+            case 'Contabilidad':
+                $ruta_img = 'img/iconos/contabilidad.png';
+                break;
+            case 'Derecho':
+                $ruta_img = 'img/iconos/derecho.png';
+                break;
+            case 'Comunicacion':
+                $ruta_img = 'img/iconos/comunicacion.png';
+                break;
+            case 'Costos':
+                $ruta_img = 'img/iconos/costos.png';
+                break;
+            case 'Mercadotecnia':
+                $ruta_img = 'img/iconos/mercadotecnia.png';
+                break;
+            case 'Economia':
+                $ruta_img = 'img/iconos/economia.png';
+                break;
+            case 'Produccion':
+                $ruta_img = 'img/iconos/produccion.png';
+                break;
+            case 'Negocios':
+                $ruta_img = 'img/iconos/negocios.png';
+                break;
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
+                break;
+            case 'Humano':
+                $ruta_img = 'img/iconos/humano.png';
+                break;
+            case 'Estadistica':
+                $ruta_img = 'img/iconos/estadistica.png';
+                break; 
             default:
                 $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
                 break;
