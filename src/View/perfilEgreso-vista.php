@@ -19,17 +19,17 @@
             <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_1.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_2.png" alt="">
-                    </div>
-
-                    <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_3.png" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_4.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_5.png" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_5.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_2.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_3.png" alt="">
+                    </div>
+
+                    <div class="col-4 px-2">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_1.png" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_6.png" alt="">
                     </div>
 
@@ -45,8 +45,10 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionales de la administración comprometidos con las demandas y oportunidades del entorno, 
-                         con una visión estratégica, humanista y global, que actúen como agentes de cambio, a través del diseño, innovación y dirección en organizaciones.
+                        <p style="text-align: justify;"> 
+                        Formar profesionales de la administración comprometidos con las demandas y oportunidades del
+                        entorno, con una visión estratégica, humanista y global, que actúen como agentes de cambio, a través
+                        del diseño, innovación y dirección en organizaciones. 
                         </p>
                     </div>
                 </div>

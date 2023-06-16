@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/IMG_ECO1182.png" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
@@ -108,7 +108,7 @@
             <h2 class="sectionTitle text-center font-bold m-3">Ivonne Ramirez Gutíerrez</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Licenciatura en Administración
+            Coordinadora de Ing. en Gestión Empresarial y Lic. en Administración
             </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
@@ -116,10 +116,16 @@
               “Frase célebre”<br />
             </h6>
             <p class="" style="text-align: justify">
-              Ivonne Ramirez Gutierrez, coordinadora de la carrera Ingeniería en Gestión Empresarial
-              y Licenciatura en Administración en el Tecnológico de Veracruz; 
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ab assumenda architecto temporibus deleniti maiores numquam vitae, magni molestiae sequi possimus nobis aspernatur quasi voluptates! Sapiente odio veritatis officia ipsa!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem adipisci numquam in sit est tempora, illum ex unde, voluptates suscipit quibusdam quia aspernatur repellendus, deserunt placeat veritatis id rerum.
+            Ivonne Ramírez Gutiérrez, coordinadora de las carreras Ingeniería en Gestión Empresarial y 
+            Lic. en Administración en el Tecnológico de Veracruz; licenciada en Administración con maestría 
+            en Educación. En el cargo de coordinación, su función principal, es la orientación académica de 
+            los alumnos estudiantes de dichas licenciaturas a lo largo de su estancia en la Institución, 
+            para un correcto avance y aprovechamiento de su programa de estudios. Así mismo se realizan 
+            diferentes funciones en la coordinación, como lo son: consulta y cambio de NIP, realizar la 
+            estructura académica con base en las estadísticas de la población inscrita y las necesidades de 
+            grupos que así se generen dentro de los periodos semestrales así como de cursos de verano.
+
+ 
             </p>
           </div>
         </div>

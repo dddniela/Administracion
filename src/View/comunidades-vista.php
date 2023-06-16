@@ -1,4 +1,4 @@
-<!--
+
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
         <img class="w-100 img-fluid" src="img/Comunidades/IMG_4709.webp" alt="" />
@@ -20,4 +20,4 @@
           ?>
     </div>
 </div>
- -->
+ 
