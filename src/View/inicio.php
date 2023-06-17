@@ -10,7 +10,7 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IMG_ECO212.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO212.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_ECO1823.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO1823.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
@@ -33,7 +33,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_ECO192.jpg" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO382.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Licenciatura en Administración</h1>
@@ -206,19 +206,19 @@
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/juliaRiveraMoreno.jpg"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/myrnaGuadalupeAndradeEstrada.jpg" alt="">
+              src="img/Docentes/saraiGarciaPerez.jpg" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-10.jpg"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/myrnaGuadalupeAndradeEstrada.jpg"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-4.jpg" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/rosarioPerezJimenez.jpg" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-5.jpg"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/cutbertoMaciasMora.jpg"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/Itver-8.jpg"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/perfectoGabrielTrujilloCastro.jpg"
               alt="">
           </div>
 

@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_ECO1821.png" alt="">
+        <img class="w-100 img-fluid" src="img/portadas/IMG_ECO1821.png" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
@@ -19,17 +19,17 @@
             <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_1.png" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_4.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_5.png" alt="">
                     </div>
 
                     <div class="col-4 px-2">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_2.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_3.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_5.png" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_1.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_3.png" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/eco_6.png" alt="">
                     </div>
 
@@ -231,7 +231,7 @@
                 <div class="row g-0">
                     <div class="col-12 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0555.JPG" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/admin_50.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
@@ -333,7 +333,7 @@
 <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_0555.JPG" alt="">
+            <img src="img/admin_50.webp" alt="">
             <p>Departamento de Ciencias Económico-Administrativas</p>
         </div>
     </div>
