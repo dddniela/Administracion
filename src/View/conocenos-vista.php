@@ -71,9 +71,10 @@
               “Frase célebre”<br />
             </h6>
             <p class="" style="text-align: justify">
-            Claudia Guadalupe Zarrabal Gutíerrez, Jefa del Departamento de Ciencias Económico-Administrativas en el Tecnológico de Veracruz; 
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quam recusandae harum consectetur quia odio mollitia quae veniam minus tempora aspernatur ab optio nesciunt non delectus esse, reiciendis doloribus nulla.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit adipisci esse velit doloremque illum odit cum ratione autem quia, consequatur at corporis quisquam, magnam officia aliquam sit perferendis molestias error.
+            Claudia Guadalupe Zarrabal Gutíerrez, Jefa del Departamento de Ciencias Económico-Administrativas en el Tecnológico
+            de Veracruz; Docente de Ciencias Económico Administrativas con experiencia en proyectos de innovación y mercadotenia.
+            Como jefa del departamento tiene la función de coordinar la aplicación de los programas de estudio de Licenciatura en 
+            Administración, Ingeniería en Gestión Empresarial y posgrados
             </p>
           </div>
         </div>
@@ -138,7 +139,7 @@
 <!--Fin Descripción Jefa/e del departamento -->
 
 
-<!-- Instalaciones 
+<!-- Instalaciones -->
 <div class="bg-primary pt-5"></div>
 <section class="seccionInstalaciones bg-dark">
   <div class="row px-2 g-0">
@@ -151,7 +152,7 @@
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
+              Laboratorio de cómputo
             </h4>
           </div>
           <div class="col-12">
@@ -161,17 +162,17 @@
             </h6>
 
             <p class="text-light" style="text-align: justify">
-              El departamento de sistemas y computación cuenta con diversos
-              laboratorios de equipo de cómputo en dónde los estudiantes podrán
+              El departamento de ciencias económico-administrativas cuenta con su
+              laboratorio de equipo de cómputo en dónde los estudiantes podrán
               desempañarse en desarrollar diversos programas, aplicaciones y
               proyectos a lo largo de sus clases prácticas en la carrera de
-              ingeniería en sistemas computacionales. <br /><br />
+              licenciatura en administración. <br /><br />
               Los laboratorios de cómputo están orientados a servir como
               herramientas de aprendizaje y apoyo didáctico tanto para los
               docentes como los alumnos.
             </p>
             <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
+              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="#">
                 Reglamento de Laboratorio</a></p>
             </div>
           </div>
@@ -180,40 +181,42 @@
     </div>
 
     <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      -->
+   <!-- Fin Instalaciones -->
 
-      <!-- Galería con modal para laboratorios de cómputo 
+      <!-- Galería con modal para laboratorios de cómputo -->
       <div class="contenedor-galeria bg-dark">
         <div class="row">
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6"> -->
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
               <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
             </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="" />
+           
+           <!-- <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
             </a>
           </div>
 
           <div class="col-lg-6">
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
             </a>
             <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0959.webp" alt="" />
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
-       Fin Galería con modal para laboratorios de cómputo 
+
+     <!--  Fin Galería con modal para laboratorios de cómputo -->
     </div>
   </div>
 </section>
 
-Fin Instalaciones-->
+<!--   Fin Galería con modal para laboratorios  -->
 
-<!-- Modals de la galería
+<!-- Modals de la galería -->
 
-Imagen 1 
+<!-- Imagen 1 -->
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
@@ -222,6 +225,7 @@ Imagen 1
   </div>
 </div>
 
+<!--   Moddal
 Imagen 2
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
   <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -235,7 +239,7 @@ Imagen 3
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
+      <img src="img/IMG_0555.jpg" alt="" />
     </div>
   </div>
 </div>
