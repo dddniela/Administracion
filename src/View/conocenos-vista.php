@@ -68,7 +68,7 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <h6 class="text-center fw-bold fs-6">
-              “Frase célebre”<br />
+            <br />
             </h6>
             <p class="" style="text-align: justify">
             Claudia Guadalupe Zarrabal Gutíerrez, Jefa del Departamento de Ciencias Económico-Administrativas en el Tecnológico
@@ -114,7 +114,7 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
           <h6 class="text-center fw-bold fs-6">
-              “Frase célebre”<br />
+              <br />
             </h6>
             <p class="" style="text-align: justify">
             Ivonne Ramírez Gutiérrez, coordinadora de las carreras Ingeniería en Gestión Empresarial y 
@@ -152,7 +152,7 @@
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorio de cómputo
+              Laboratorio de Negocios
             </h4>
           </div>
           <div class="col-12">
@@ -313,7 +313,8 @@ Fin Modals de la galería-->
     </div>
   </div>
 </section>
-
+ Fin Laboratorio de cómputo intensivo -->
+ 
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
@@ -321,4 +322,3 @@ Fin Modals de la galería-->
     <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, 
       Marco Gabriel Cortés Toledo, Gabriel Escobar Medina </p>
 </div>
- Fin Laboratorio de cómputo intensivo -->
