@@ -5,8 +5,8 @@
       <div
         class="d-flex flex-column justify-content-center align-items-center text-center"
       >
-        <h1 class="fw-bold text-warning text-stroke">Plantilla Docente</h1>
-        <h1 class="fw-bold text-light d-md-flex d-none text-stroke">
+        <h1 class="fw-bold text-warning shadow-text">Plantilla Docente</h1>
+        <h1 class="fw-bold text-light d-md-flex d-none shadow-text">
           Licenciatura en Administración
         </h1>
       </div>
