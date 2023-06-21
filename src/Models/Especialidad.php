@@ -1,12 +1,11 @@
 <?php
 
 require_once "Conexion.php";
-$carreraID = 3;
 
 class Especialidad
 {
-	private $especialidadId;
-	private $carreraId;
+    private $especialidadId;
+    private $carreraId;
     private $nombre;
     private $status;
     private $connection;
@@ -16,39 +15,81 @@ class Especialidad
         $this->connection = $conn;
     }
 
-    public function getEspecialidades(){
+    public function getEspecialidades()
+    {
         $cn = $this->connection;
-        $sqlQ = "SELECT * FROM tbl_especialidad WHERE carreraId=" .$GLOBALS['carreraID'] ." AND status = 1;";
+        $sqlQ = "SELECT especialidadId, nombre FROM tbl_especialidad WHERE carreraId=" . $GLOBALS['carreraID'] . " AND status = 1;";
         $data = $cn->query($sqlQ);
         return $data;
     }
 
 
-    function icono($Area){
+    function icono($Area)
+    {
         $ruta_img = "";
-        switch($Area){
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/concurrentes.PNG';
+        switch ($Area) {
+            case 'Administracion':
+                $ruta_img = 'img/iconos/admin.png';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/distribuidas.PNG';
+            case 'Asignaturas Comunes':
+                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/blockchain.PNG';
+            case 'Informatica':
+                $ruta_img = 'img/iconos/informatica.png';
                 break;
+            case 'Investigacion':
+                $ruta_img = 'img/iconos/investigacion.png';
+                break;
+            case 'Matematicas':
+                $ruta_img = 'img/iconos/matematicas.png';
+                break;
+            case 'Contabilidad':
+                $ruta_img = 'img/iconos/contabilidad.png';
+                break;
+            case 'Derecho':
+                $ruta_img = 'img/iconos/derecho.png';
+                break;
+            case 'Comunicacion':
+                $ruta_img = 'img/iconos/comunicacion.png';
+                break;
+            case 'Costos':
+                $ruta_img = 'img/iconos/costos.png';
+                break;
+            case 'Mercadotecnia':
+                $ruta_img = 'img/iconos/mercadotecnia.png';
+                break;
+            case 'Economia':
+                $ruta_img = 'img/iconos/economia.png';
+                break;
+            case 'Produccion':
+                $ruta_img = 'img/iconos/produccion.png';
+                break;
+            case 'Negocios':
+                $ruta_img = 'img/iconos/negocios.png';
+                break;
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
+                break;
+            case 'Humano':
+                $ruta_img = 'img/iconos/humano.png';
+                break;
+            case 'Estadistica':
+                $ruta_img = 'img/iconos/estadistica.png';
+                break; 
             default:
-                $ruta_img = 'img/iconos/programacion.PNG';
+                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
     }
 
-    function imprimirNombres(){
-        $data = $this->getEspecialidades(); 
-    
+    function imprimirNombres()
+    {
+        $data = $this->getEspecialidades();
+
         $especialidades = "";
-        if($data->num_rows > 0){
-            while($row = $data->fetch_assoc()){
+        if ($data->num_rows > 0) {
+            while ($row = $data->fetch_assoc()) {
                 $nombre = $row['nombre'];
                 $especialidades .= "<li>$nombre</li>";
             }
@@ -56,12 +97,13 @@ class Especialidad
         return $especialidades;
     }
 
-    function imprimirDropdown(){
-        $data = $this->getEspecialidades();  
-    
+    function imprimirDropdown()
+    {
+        $data = $this->getEspecialidades();
+
         $especialidades = "";
-        if($data->num_rows > 0){
-            while($row = $data->fetch_assoc()){
+        if ($data->num_rows > 0) {
+            while ($row = $data->fetch_assoc()) {
                 $especialidadId = $row['especialidadId'];
                 $nombre = $row['nombre'];
 
@@ -76,13 +118,14 @@ class Especialidad
     }
 
 
-    function imprimirNavPills(){
-        $data = $this->getEspecialidades();  
+    function imprimirNavPills()
+    {
+        $data = $this->getEspecialidades();
         $especialidades = "";
         $i = 0;
 
-        if($data->num_rows > 0){
-            while($row = $data->fetch_assoc()){
+        if ($data->num_rows > 0) {
+            while ($row = $data->fetch_assoc()) {
                 $especialidadId = $row['especialidadId'];
                 $nombre = $row['nombre'];
                 $selectedBool = $i == 0 ?  'true' :  'false';
@@ -99,13 +142,14 @@ class Especialidad
         return $especialidades;
     }
 
-    function imprimirPills(){
-        $data = $this->getEspecialidades();  
+    function imprimirPills()
+    {
+        $data = $this->getEspecialidades();
         $especialidades = "";
         $i = 0;
 
-        if($data->num_rows > 0){
-            while($row = $data->fetch_assoc()){
+        if ($data->num_rows > 0) {
+            while ($row = $data->fetch_assoc()) {
                 $especialidadId = $row['especialidadId'];
                 $nombre = $row['nombre'];
                 $selectedBool = $i == 0 ?  'true' :  'false';
@@ -115,7 +159,7 @@ class Especialidad
                 <div class='tab-pane fade show $activeBool' id='tab-especialidad$especialidadId' role='tabpanel' aria-labelledby='tab-especialidad$especialidadId-tab'>
                 <h2 class='titleDarkSection text-center font-bold my-4 d-flex d-sm-none'>$nombre</h2>
                     <div class='container'>";
-                        
+
                 $especialidades .= $this->imprimirEspecialidad($especialidadId);
 
                 $especialidades .= "</div>
@@ -126,16 +170,17 @@ class Especialidad
         return $especialidades;
     }
 
-    function imprimirEspecialidad($especialidadId){
+    function imprimirEspecialidad($especialidadId)
+    {
         $cn = $this->connection;
-        $sqlQ = "SELECT * FROM tbl_materia WHERE carreraId=" .$GLOBALS['carreraID'] ." AND especialidadId=$especialidadId  AND status = 1;;";
+        $sqlQ = "SELECT * FROM tbl_materia WHERE carreraId=" . $GLOBALS['carreraID'] . " AND especialidadId=$especialidadId AND status = 1;";
         $data = $cn->query($sqlQ);
-    
+
         $tabla = "";
 
-        if($data->num_rows > 0){
+        if ($data->num_rows > 0) {
             $tabla .= "<div class='row justify-content-md-start h-100 justify-content-center'>";
-            while($row = $data->fetch_assoc()){
+            while ($row = $data->fetch_assoc()) {
                 $materiaId = $row['materiaId'];
                 $nombre = $row['nombre'];
                 $competencia = $row['competencia'];
@@ -179,11 +224,11 @@ class Especialidad
                                 </div>
                             </div>
                         </div>";
-                }
-                $tabla .= "</div>";
             }
-            return $tabla;
-            
-            $cn->close();
+            $tabla .= "</div>";
         }
+        return $tabla;
+
+        $cn->close();
+    }
 }

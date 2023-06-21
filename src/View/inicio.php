@@ -10,11 +10,11 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/ITVER-1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO212.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
+            <h1 class="mainTitle text-center font-bold m-2 text-stroke">Licenciatura en Administración</h1>
+            <h2 class="mainSubtitle text-center font-bold text-stroke">Desarrolla habilidades administrativas</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -22,22 +22,22 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_3929.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO1823.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
+            <h1 class="mainTitle text-center font-bold m-2 text-stroke">Licenciatura en Administración</h1>
+            <h2 class="mainSubtitle text-center font-bold text-stroke">Diseña estrategias de mercadotecnia</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_1891.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/portadas/IMG_ECO382.png" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Colabora con la comunidad</h1>
+            <h1 class="mainTitle text-center font-bold m-2 text-stroke">Licenciatura en Administración</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex text-stroke">Colabora con la comunidad</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
@@ -61,7 +61,7 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG-1234.webp" alt="">
+        <img class="img-fluid rounded" src="img/IMG_2828.png" alt="">
       </div>
     </div>
 
@@ -69,13 +69,14 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Ingeniería Química?</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Licenciatura en Administración?</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en sistemas computacionales permite al estudiante la oportunidad de 
-              afrontar el mundo actual y obtener los conocimientos necesarios para forjar el futuro, a través del desarrollo y la creación de nuevas aplicaciones o sistemas que puedan ser de ayuda
-              para una empresa y la sociedad en general.
+            <p style="text-align: justify;"> La carrera de Licenciatura en Administración brinda al estudiante la oportunidad de afrontar los desafíos 
+              del mundo actual y adquirir los conocimientos necesarios para liderar en el ámbito empresarial y contribuir 
+              al desarrollo futuro. Durante su formación, los estudiantes aprenden a gestionar de manera eficiente los recursos, 
+              tomar decisiones estratégicas y crear soluciones innovadoras que beneficien a las organizaciones y a la sociedad en general.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -96,60 +97,60 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/programacion-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/contabilidad.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Desarrollo de Software</h3>
-        <p class="areaText">Desarrolla programas a través de diferentes lenguajes de programación.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Contabilidad</h3>
+        <p class="areaText">Interpretación de la información contable para la toma de decisiones.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/ing-software-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/finanzas.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Ingeniería de Software</h3>
-        <p class="areaText">Aplica metodologías ágiles para el desarrollo eficiente de proyectos de software.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Finanzas</h3>
+        <p class="areaText">Administración del capital de trabajo y la evaluación de riesgos financieros.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/mercadotecnia.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Bases de Datos</h3>
-        <p class="areaText">Gestiona y almacena el flujo de datos de información de un sistema informático.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Mercadotecnia</h3>
+        <p class="areaText">Investigación de mercado, estrategias de venta y distribución.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/estrategia.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Programación web</h3>
-        <p class="areaText">Crea y desarrolla aplicaciones y sitios web para brindar soluciones a las empresas.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Estrategia empresarial</h3>
+        <p class="areaText">Implementación de acciones para lograr los objetivos organizacionales.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/admon-red-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/logistica.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Redes y Telecomunicaciones</h3>
-        <p class="areaText">Permite la interconexión entre distintos equipos de cómputo de forma física o virtual.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Operaciones y logística</h3>
+        <p class="areaText">Gestión de inventarios, la optimización de la producción y la mejora continua.</p>
       </div>
     </div>
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/inteligencia-artificial-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/topicos/administracion.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Inteligencia Artificial</h3>
-        <p class="areaText">Aprende los fundamentos sobre sistemas informáticos de última generación.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Administración</h3>
+        <p class="areaText">Planificación, organización y control de los recursos dentro de una organización.</p>
       </div>
     </div>
 
@@ -171,12 +172,12 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-              El departamento de sistemas y computación cuenta con diversos laboratorios de equipo de cómputo en dónde los 
-              estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus 
-              clases prácticas en la carrera de ingeniería en sistemas computacionales. <br /><br />
-              
-              Los laboratorios de cómputo están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto 
-              para los docentes como los alumnos.
+
+              El departamento de ciencias económico-administrativas colabora estrechamente con el cuerpo docente de la carrera de licenciatura en administración e 
+              ingeniería en gestión empresarial para asegurar que se cumplan con los objetivos de aprendizaje establecidos en el plan de estudios.  <br> <br>
+              También se encarga de recopilar datos y realizar seguimiento del desempeño de los estudiantes en las clases prácticas, 
+              se encarga de gestionar y coordinar, asegurando un entorno propicio para el desarrollo de programas, aplicaciones y proyectos por parte de los estudiantes.
+
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -186,7 +187,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_2102.webp" alt="">
+        <img class="img-fluid rounded" src="img/IMG_ECO23.webp" alt="">
       </div>
     </div>
 
@@ -202,22 +203,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/abelardoRodriguezLeon.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/juliaRiveraMoreno.png"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/juliaGuadalupeTrujilloSalamanca.webp" alt="">
+              src="img/Docentes/saraiGarciaPerez.png" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/bereniceLagunesPadilla.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/myrnaGuadalupeAndradeEstrada.png"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/rafaelRiveraLopez.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/rosarioPerezJimenez.png" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/ernestoGarciaPerez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/cutbertoMaciasMora.png"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/normaFaviolaGarciaGomez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/perfectoGabrielTrujilloCastro.png"
               alt="">
           </div>
 
@@ -258,7 +259,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank" >
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_1223.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/gestionVinculacion.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
       </div>
@@ -276,13 +277,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_1245.webp" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/Itver Admon-5.jpg" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
     </div>
-
-    
 
   </div>
 </section>
@@ -362,7 +361,7 @@
     </div>
   </div>
   <div class="row g-0">
-    <h4 class="sectionTitle  text-center font-bold">Departamento de Sistemas Computacionales</h4>
+    <h4 class="sectionTitle  text-center font-bold">Departamento Económico - Administrativo</h4>
     <div class="d-flex flex-row justify-content-center">
       <a class="mx-2" href="https://www.facebook.com/profile.php?id=100065327956621" target="_blank"
         style="text-decoration: none;">
