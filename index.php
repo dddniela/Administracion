@@ -32,8 +32,8 @@ $comunidad->setConnection($conn->getDB());
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Ingeniería Mecátronica">
-    <meta name="author" content="Instituto Tecnológico Nacional de Veracruz">
+    <meta name="keywords" content="Licenciatura en Administración">
+    <meta name="author" content="Instituto Tecnológico de Veracruz">
     <link rel="icon" href="img/itver-logo.PNG" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
