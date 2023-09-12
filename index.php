@@ -12,7 +12,7 @@ $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Administracion/?option=0"
 );
 
-$carreraID = 2;
+$programaId = 2;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();

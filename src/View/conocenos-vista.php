@@ -104,7 +104,7 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)
+        <img class="img-fluid rounded" src='img\Docentes\<?php if ($jefeDepartamento)
           echo $jefeDepartamento->imagen; ?>' alt="">
       </div>
     </div>
@@ -120,7 +120,7 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='<?php if ($coordinador)
+        <img class="img-fluid rounded" src='img\Docentes\<?php if ($coordinador)
           echo $coordinador->imagen; ?>' alt="">
       </div>
     </div>
