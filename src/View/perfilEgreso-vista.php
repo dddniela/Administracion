@@ -89,11 +89,11 @@ $objetivo = $seccion->getObjetivo();
 </section>
 <!--Fin Objetivo general -->
 
-<!-- Perfil de egreso -->
+<!-- Perfil de ingreso -->
 <div class="informationContainer">
     <div class="row g-0 align-items-center">
         <div class="col-lg-12">
-            <!-- Puntos del perfil de egreso -->
+            <!-- Puntos del perfil de ingreso -->
             <section class="lightSection bg-light p-2">
                 <h2 class="sectionTitle text-center font-bold m-3">Perfil de Ingreso</h2>
                 <div class="sectionSeparator"></div>
@@ -104,11 +104,12 @@ $objetivo = $seccion->getObjetivo();
                     ?>
                 </div>
             </section>
-            <!-- Fin Puntos del perfil de egreso -->
+            
 
         </div>
     </div>
 </div>
+<!-- Fin Puntos del perfil de ingreso -->
 
 <!-- Perfil de egreso -->
 <div class="informationContainer">
