@@ -95,6 +95,27 @@ $objetivo = $seccion->getObjetivo();
         <div class="col-lg-12">
             <!-- Puntos del perfil de egreso -->
             <section class="lightSection bg-light p-2">
+                <h2 class="sectionTitle text-center font-bold m-3">Perfil de Ingreso</h2>
+                <div class="sectionSeparator"></div>
+
+                <div class="row g-0">
+                    <?php
+                    echo $seccion->imprimirPerfilIngreso();
+                    ?>
+                </div>
+            </section>
+            <!-- Fin Puntos del perfil de egreso -->
+
+        </div>
+    </div>
+</div>
+
+<!-- Perfil de egreso -->
+<div class="informationContainer">
+    <div class="row g-0 align-items-center">
+        <div class="col-lg-12">
+            <!-- Puntos del perfil de egreso -->
+            <section class="lightSection bg-light p-2">
                 <h2 class="sectionTitle text-center font-bold m-3">Perfil de egreso</h2>
                 <div class="sectionSeparator"></div>
 
