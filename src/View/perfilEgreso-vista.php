@@ -4,6 +4,7 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
+$tabla = $seccion->getPerfilIngreso();
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -44,27 +45,7 @@ $objetivo = $seccion->getObjetivo();
             </div>
         </div>
 
-       <!-- <div class="lightSection col-lg-6 col-12 p-4">
-            <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <div class="row g-0">
-                    <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
-                        <div class="sectionSeparator"></div>
-                    </div>
-                    <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> 
-                        Formar profesionales de la administración comprometidos con las demandas y oportunidades del
-                        entorno, con una visión estratégica, humanista y global, que actúen como agentes de cambio, a través
-                        del diseño, innovación y dirección en organizaciones. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-
-<div class="lightSection col-lg-6 col-12 p-4">
+        <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
@@ -88,6 +69,59 @@ $objetivo = $seccion->getObjetivo();
     </div>
 </section>
 <!--Fin Objetivo general -->
+
+<!-- Perfil de ingreso 
+<div class="informationContainer">
+    <div class="row g-0 align-items-center">
+        <div class="col-lg-12">
+             Puntos del perfil de ingreso 
+            <section class="lightSection bg-light p-2">
+                <h2 class="sectionTitle text-center font-bold m-3">Perfil de Ingreso</h2>
+                <div class="sectionSeparator"></div>
+
+                    <div class="col-12" style="text-align: center;">
+                            <p style="text-align: justify;">
+                            <?php
+                            echo $seccion->imprimirPerfilIngreso();
+                            ?>
+                            </p>
+                    </div>
+            </section>
+
+             Fin Puntos del perfil de ingreso 
+
+        </div>
+    </div>
+</div>
+ Fin perfil de ingreso -->
+
+<!-- perfil de ingreso temporal -->
+<section class="lightSection bg-light">
+    <div class="row px-2 g-0">
+        <div class="col-lg-12 col-6 p-4">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="row g-0">
+                    <h2 class="sectionTitle text-center font-bold m-3">
+                        Perfil de ingreso
+                    </h2>
+                    <div class="sectionSeparator"></div>
+                    <div class="col-12 px-4">
+                        <p class="text-dark" style="text-align: justify;">
+                            Las personas que deseen matricularse en Licenciatura en Administración deben haber cursado
+                            preferentemente bachillerato en Ciencias Económicas Administrativas o afín, contar con los
+                            conocimientos mínimos de las áreas de humanidades, ciencias sociales y naturales para
+                            demostrar su capacidad de razonamiento verbal, enfocarse en los problemas prácticos que
+                            enfrenta la nación, demostrar visión de crecimiento y sostenibilidad a través de proyectos y
+                            exhibir conciencia ambiental. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin perfil de ingreso -->
+
+
 
 <!-- Perfil de egreso -->
 <div class="informationContainer">
@@ -136,7 +170,8 @@ $objetivo = $seccion->getObjetivo();
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/IMG_1325.jpg"
+                                alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_ECO31.webp" alt="">
@@ -215,8 +250,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER.webp" alt="">
-            <p>Letras del Instituto Tecnológico de Veracruz</p>
+            <img src="img/laboratorio/IMG_1325.jpg" alt="">
+            <p>Laboratorio Simulación de Negocios</p>
         </div>
     </div>
 </div>

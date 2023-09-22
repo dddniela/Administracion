@@ -176,13 +176,12 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
             </h2>
             <div class="separadorSeccionOscura"></div>
             <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorio de Negocios
+              Laboratorio Simulación de Negocios
             </h4>
           </div>
           <div class="col-12">
             <h6 class="text-center text-warning fw-bold fs-6">
-              “El verdadero progreso es el que pone la tecnología al alcance de
-              todos.”<br />
+              “Aprendizaje en nuestro laboratorio informático.”<br />
             </h6>
 
             <p class="text-light" style="text-align: justify">
@@ -206,7 +205,7 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
         <div class="row">
           <!-- <div class="col-lg-6"> -->
         
-            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/IMG_1327.jpg" alt="" />
 
         </div>
       </div>
@@ -224,7 +223,7 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
+      <img src="img/laboratorio/IMG_1327.jpg" alt="" />
     </div>
   </div>
 </div>
@@ -233,6 +232,11 @@ $jefeDepartamento = $administrativos->getJefeDepartamento();
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-  <p> Nancy Daniela Mendez Arpidez, Daniela Castro Rodriguez, Yelitza Magali Rosas Jiménez,
-    Marco Gabriel Cortés Toledo, Gabriel Escobar Medina </p>
+  <p>Nancy Daniela Mendez Arpidez, Daniela Castro Rodriguez, Yelitza Magali Rosas Jiménez, 
+    Marco Gabriel Cortés Toledo, y Gabriel Escobar Medina</p>
+</div>
+
+<div class="p-1 text-center">
+  <p class="font-semibold">Agradecimientos</p>
+  <p>Eric Manuel Montalvo Cruz, Iván de Jesús Agame Malpica y Fernando Martinez </p>
 </div>
