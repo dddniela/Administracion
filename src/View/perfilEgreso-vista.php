@@ -4,7 +4,7 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
-$tabla = $seccion->getPerfilIngreso();
+$ingreso = $seccion->getPerfilIng();
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -70,57 +70,40 @@ $tabla = $seccion->getPerfilIngreso();
 </section>
 <!--Fin Objetivo general -->
 
-<!-- Perfil de ingreso 
-<div class="informationContainer">
-    <div class="row g-0 align-items-center">
-        <div class="col-lg-12">
-             Puntos del perfil de ingreso 
-            <section class="lightSection bg-light p-2">
-                <h2 class="sectionTitle text-center font-bold m-3">Perfil de Ingreso</h2>
-                <div class="sectionSeparator"></div>
+<!-- Perfil de ingreso -->
+<section class="lightSection bg-light p-2">
+    <div class="row px-2 g-0">
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <img class="img-fluid rounded" src="img/IMG_593.png" alt="">
+            </div>
+        </div>
 
-                    <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;">
-                            <?php
-                            echo $seccion->imprimirPerfilIngreso();
-                            ?>
-                            </p>
+        <div class="lightSection col-lg-6 col-12 p-4">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <h2 class="sectionTitle text-center font-bold m-3">
+                            Perfil de ingreso
+                        </h2>
+                        <div class="sectionSeparator"></div>
                     </div>
-            </section>
-
-             Fin Puntos del perfil de ingreso 
-
-        </div>
-    </div>
-</div>
- Fin perfil de ingreso -->
-
-<!-- perfil de ingreso temporal -->
-<div class="informationContainer">
-    <div class="row g-0 align-items-center">
-        <div class="col-lg-12">
-            <!-- -->
-            <section class="lightSection bg-light p-2">
-                <h2 class="sectionTitle text-center font-bold m-3">Perfil de ingreso</h2>
-                <div class="sectionSeparator"></div>
-
-                <div class="row g-0 col-12 px-4">
-                    <p class="text-dark" style="text-align: justify;">
-                        Las personas que deseen matricularse en Licenciatura en Administración deben haber cursado
-                        preferentemente bachillerato en Ciencias Económicas Administrativas o afín, contar con los
-                        conocimientos mínimos de las áreas de humanidades, ciencias sociales y naturales para
-                        demostrar su capacidad de razonamiento verbal, enfocarse en los problemas prácticos que
-                        enfrenta la nación, demostrar visión de crecimiento y sostenibilidad a través de proyectos y
-                        exhibir conciencia ambiental.</p>
+                    <div class="col-12" style="text-align: center;">
+                        <p style="text-align: justify;">
+                            <?php
+                            if ($ingreso) {
+                                echo $ingreso->descripcion;
+                            }
+                            ?>
+                        </p>
+                    </div>
                 </div>
-            </section>
-
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 <!-- Fin perfil de ingreso -->
-
-
 
 <!-- Perfil de egreso -->
 <div class="informationContainer">
