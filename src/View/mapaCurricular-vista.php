@@ -417,7 +417,7 @@
         </div>
     </section>
     <!--Fin Servicio social -->
-
+    <!-- nancy daniela mendez arpidez -->
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
         <img src="img/P29.webp" class="w-full" alt="">

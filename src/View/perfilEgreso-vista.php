@@ -199,8 +199,7 @@ $ingreso = $seccion->getPerfilIng();
     </div>
 </section>
 <!-- Fin Galeria de imagenes -->
-
-
+<!-- nancy daniela mendez arpidez -->
 <!-- Modals de la galería-->
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
