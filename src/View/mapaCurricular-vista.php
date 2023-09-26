@@ -58,7 +58,6 @@
                         data-bs-target="#tab-semestre8" type="button" aria-controls="tab-semestre8"
                         aria-selected="false">8vo Semestre</button>
                 </li>
-
             </ul>
         </li>
     </ul>
@@ -171,7 +170,6 @@
                 ?>
             </div>
         </div>
-
     </div>
 
     <div class='modal fade' id='modalReticula' tabindex='-1' aria-labelledby='modalReticula' aria-hidden='true'>
@@ -207,7 +205,6 @@
         <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/46vfP7D">Descargar
                 Retícula</a></p>
     </div>
-
 </div>
 <!-- Fin Mapa curricular -->
 
@@ -413,7 +410,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!--Fin Servicio social -->
@@ -530,7 +526,6 @@
                         <img class="img-fluid rounded" src="img/gestionVinculacion.webp" alt="">
                     </div>
                 </div>
-
             </div>
         </section>
     </div>
@@ -737,9 +732,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
     </div>
