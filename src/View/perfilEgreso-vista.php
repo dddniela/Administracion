@@ -4,6 +4,7 @@ $seccion = new Seccion();
 $seccion->setConnection($conn->getDB());
 
 $objetivo = $seccion->getObjetivo();
+$objetivo = $objetivo['data'];
 $ingreso = $seccion->getPerfilIng();
 ?>
 <!-- Portada -->
@@ -49,16 +50,14 @@ $ingreso = $seccion->getPerfilIng();
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">
-                            Objetivo general
-                        </h2>
+                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;">
                             <?php
                             if ($objetivo) {
-                                echo $objetivo->descripcion;
+                                echo $objetivo['descripcion'];
                             }
                             ?>
                         </p>
@@ -152,8 +151,7 @@ $ingreso = $seccion->getPerfilIng();
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/IMG_1325.jpg"
-                                alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorio/IMG_1325.jpg" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_ECO31.webp" alt="">
