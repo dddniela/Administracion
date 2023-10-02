@@ -31,3 +31,4 @@
   $paginacion = $docente->generarPaginacion();
   echo $paginacion;
   ?>
+</div>
