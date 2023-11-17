@@ -379,4 +379,5 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
       </div>
     </div>
   </div>
+</section>
   <!-- Fin Área de redes sociales -->
