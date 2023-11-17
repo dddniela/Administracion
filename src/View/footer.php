@@ -142,3 +142,5 @@
             window.location.reload();
         }
     </script>
+</footer>
+</body>
