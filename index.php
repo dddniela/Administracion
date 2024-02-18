@@ -16,6 +16,7 @@ $programaId = 2;
 $api = 'http://localhost:3010';
 $PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Lic-Administracion/docentes/';
 $PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Lic-Administracion/comunidades/';
+$PATH_ICONO =  $GLOBALS['api'] . '/imagenes/Lic-Administracion/iconos/';
 
 $conn = new Conexion();
 $conn->connect();

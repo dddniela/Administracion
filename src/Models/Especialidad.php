@@ -60,58 +60,61 @@ class Especialidad
         $ruta_img = "";
         switch ($Area) {
             case 'Administracion':
-                $ruta_img = 'img/iconos/admin.png';
+                $ruta_img = 'admin.png';
                 break;
             case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+                $ruta_img = 'asignaturas-comunes.PNG';
                 break;
             case 'Informatica':
-                $ruta_img = 'img/iconos/informatica.png';
+                $ruta_img = 'informatica.png';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.png';
+                $ruta_img = 'investigacion.png';
                 break;
             case 'Matematicas':
-                $ruta_img = 'img/iconos/matematicas.png';
+                $ruta_img = 'matematicas.png';
                 break;
             case 'Contabilidad':
-                $ruta_img = 'img/iconos/contabilidad.png';
+                $ruta_img = 'contabilidad.png';
                 break;
             case 'Derecho':
-                $ruta_img = 'img/iconos/derecho.png';
+                $ruta_img = 'derecho.png';
                 break;
             case 'Comunicacion':
-                $ruta_img = 'img/iconos/comunicacion.png';
+                $ruta_img = 'comunicacion.png';
                 break;
             case 'Costos':
-                $ruta_img = 'img/iconos/costos.png';
+                $ruta_img = 'costos.png';
                 break;
             case 'Mercadotecnia':
-                $ruta_img = 'img/iconos/mercadotecnia.png';
+                $ruta_img = 'mercadotecnia.png';
                 break;
             case 'Economia':
-                $ruta_img = 'img/iconos/economia.png';
+                $ruta_img = 'economia.png';
                 break;
             case 'Produccion':
-                $ruta_img = 'img/iconos/produccion.png';
+                $ruta_img = 'produccion.png';
                 break;
             case 'Negocios':
-                $ruta_img = 'img/iconos/negocios.png';
+                $ruta_img = 'negocios.png';
                 break;
             case 'Procesos':
-                $ruta_img = 'img/iconos/procesos.png';
+                $ruta_img = 'procesos.png';
                 break;
             case 'Humano':
-                $ruta_img = 'img/iconos/humano.png';
+                $ruta_img = 'humano.png';
                 break;
             case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.png';
+                $ruta_img = 'estadistica.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
     function imprimirNombres()
